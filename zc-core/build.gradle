@@ -1,0 +1,35 @@
+plugins {
+    id 'org.springframework.boot' version '2.3.1.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+    id 'java'
+}
+
+group = 'com.zc'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // 注册中心
+    implementation('org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:0.9.0.RELEASE') {
+        exclude group: 'com.alibaba.nacos', module: 'nacos-client'
+    }
+
+    // 配置中心
+    implementation 'org.springframework.cloud:spring-cloud-starter-alibaba-nacos-config:0.9.0.RELEASE'
+
+    implementation 'com.alibaba.nacos:nacos-client:1.3.0'
+
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
+}
+
+test {
+    useJUnitPlatform()
+}

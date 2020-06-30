@@ -1,0 +1,27 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    # 服务逻辑名称
+    name: zc-core-provider
+
+  profiles:
+    active: dev
+
+  main:
+    allow-bean-definition-overriding: true
+
+  cloud:
+    nacos:
+      # 注册中心
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 001d4d62-9fbd-4cef-832a-c21777a2572f
+
+      # 配置中心
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+        group: DEV_GROUP
+        namespace: 001d4d62-9fbd-4cef-832a-c21777a2572f
