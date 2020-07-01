@@ -54,14 +54,15 @@ dependencies {
 
 ### 采用namespace与配置文件的结合方式动态获取数据
 
-> https://zhuanlan.zhihu.com/p/91827339
-
-> https://zhuanlan.zhihu.com/p/92782024
+- [Spring Cloud Alibaba Nacos（功能篇）(1)](https://zhuanlan.zhihu.com/p/68700978)
+- [Spring Cloud Alibaba Nacos（功能篇）(2)](https://zhuanlan.zhihu.com/p/91827339)
+- [Spring Cloud Alibaba Nacos（功能篇）(3)](https://zhuanlan.zhihu.com/p/92782024)
 
 #### 1. 添加命名空间
-空间名： dev
-描述： 开发模式
-空间id可以自动生成
+
+- 空间名： dev
+- 描述： 开发模式
+- 空间id可以自动生成
 
 #### 2. 根据项目及namespace进行添加配置文件
 
