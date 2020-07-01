@@ -1,8 +1,29 @@
 # 分布式Demo
 
-## [nacos 文档](https://nacos.io/zh-cn/docs/quick-start-spring-cloud.html)
+## [流程图](https://github.com/zhoutaoo/SpringCloud/raw/master/docs/auth.png)
 
-### nacos-server
+![](https://github.com/zhoutaoo/SpringCloud/raw/master/docs/auth.png)
+
+### 1. 调用zc-gateway
+
+### 2. 调用zc-authorization
+
+### 3. 调用zc-authentication
+
+### 4. 调用对应的服务
+
+## 技术点
+
+技术名称|相关介绍
+---|---
+nacos | [nacos 文档](https://nacos.io/zh-cn/docs/quick-start-spring-cloud.html)
+
+
+### nacos
+
+#### [配置方式](https://github.com/alibaba/spring-cloud-alibaba/wiki/Nacos-config)
+
+#### nacos-server
 
 > 默认登录用户及密码为：nacos
 

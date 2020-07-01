@@ -1,0 +1,40 @@
+plugins {
+    id 'org.springframework.boot' version '2.3.1.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+    id 'java'
+}
+
+group = 'com.zc'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'mysql:mysql-connector-java'
+    implementation 'com.alibaba:druid-spring-boot-starter:1.1.9'
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.2'
+    implementation 'tk.mybatis:mapper-spring-boot-starter:2.0.4'
+    implementation('com.github.pagehelper:pagehelper-spring-boot-starter:1.2.9') {
+        exclude group: 'org.mybatis.spring.boot', module: 'mybatis-spring-boot-starter'
+    }
+
+    // Lombok
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    // 自己的通用包
+    compile project(':zc-common')
+
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
+}
+
+test {
+    useJUnitPlatform()
+}

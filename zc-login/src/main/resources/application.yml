@@ -1,0 +1,28 @@
+spring:
+  #数据源配置
+  datasource:
+    url: ${envs.${projectName}.${env}.url}
+    username: ${envs.${projectName}.${env}.username}
+    password: ${envs.${projectName}.${env}.password}
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+#mybatis扫描路径
+mybatis:
+  type-aliases-package: com.stone.model
+  mapper-locations: classpath:mapper/*.xml
+
+#通用mapper
+mapper:
+  mappers:
+    - com.stone.base.BaseMapper
+  not-empty: false
+  identity: MYSQL
+  before: true
+
+#分页mapper
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
