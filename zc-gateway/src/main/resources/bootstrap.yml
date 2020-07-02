@@ -14,6 +14,7 @@ spring:
       # 注册中心
       discovery:
         server-addr: 127.0.0.1:8848
+        group: DEV_GROUP
         namespace: 001d4d62-9fbd-4cef-832a-c21777a2572f
 
       # 配置中心

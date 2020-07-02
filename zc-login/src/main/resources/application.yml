@@ -1,28 +1,30 @@
 spring:
-  #Êı¾İÔ´ÅäÖÃ
+  # æ•°æ®æºé…ç½®
   datasource:
-    url: ${envs.${projectName}.${env}.url}
-    username: ${envs.${projectName}.${env}.username}
-    password: ${envs.${projectName}.${env}.password}
-    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/spring_cloud_demo?useSSL=FALSE&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 
-#mybatisÉ¨ÃèÂ·¾¶
+# mybatisæ‰«æè·¯å¾„
 mybatis:
-  type-aliases-package: com.stone.model
+  type-aliases-package: com.zc.common.model
   mapper-locations: classpath:mapper/*.xml
 
-#Í¨ÓÃmapper
+# é€šç”¨mapper
 mapper:
   mappers:
-    - com.stone.base.BaseMapper
+    - com.zc.login.base.BaseMapper
   not-empty: false
   identity: MYSQL
   before: true
 
-#·ÖÒ³mapper
+# åˆ†é¡µmapper
 pagehelper:
   helperDialect: mysql
   reasonable: true
   supportMethodsArguments: true
   params: count=countSql
+
+secret_key: admin

@@ -1,33 +1,35 @@
 package com.zc.login.controller;
 
-import com.zc.common.model.po.user.User;
+import com.zc.common.model.dto.UserDTO;
 import com.zc.common.model.vo.BaseVO;
-import com.zc.login.service.IUserService;
-import org.springframework.web.bind.annotation.PostMapping;
+import com.zc.login.service.UserService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author zichen
  */
+@RequiredArgsConstructor
 @RequestMapping("/user")
 @RestController
 public class UserController {
 
-    private IUserService userService;
+    private final UserService userService;
 
     /**
      * 认证用户信息
-     * @param user
+     * @param userDTO
      * @return
      */
-    @PostMapping("/auth")
-    public BaseVO auth(User user) {
-        String token = userService.auth(user);
+    @GetMapping("/login")
+    public BaseVO login(UserDTO userDTO) {
+        String token = userService.login(userDTO);
         if (token == null) {
             return BaseVO.fail();
         } else {
-            return BaseVO.success();
+            return BaseVO.success(token);
         }
     }
 

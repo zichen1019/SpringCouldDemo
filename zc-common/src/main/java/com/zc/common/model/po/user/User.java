@@ -1,8 +1,7 @@
 package com.zc.common.model.po.user;
 
 import com.zc.common.model.po.BasePO;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import lombok.*;
 
 import javax.persistence.Table;
 
@@ -11,6 +10,9 @@ import javax.persistence.Table;
  *
  * 用户信息
  */
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 @EqualsAndHashCode(callSuper = true)
 @Data
 @Table(name = "sys_user")

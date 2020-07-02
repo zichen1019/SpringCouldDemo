@@ -35,7 +35,7 @@ public class GatewayController {
 
     @RequestMapping(value = "/echo/{str}", method = RequestMethod.GET)
     public String echo(@PathVariable String str) {
-        return restTemplate.getForObject("http://zc-core-provider/core/echo/" + str, String.class);
+        return restTemplate.getForObject("http://zc-login-provider/user/login/" + str, String.class);
     }
 
 }

@@ -33,6 +33,7 @@ public class AuthFilter implements GlobalFilter, Ordered {
 
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
+        System.err.println(123456);
         // 白名单Path
         Set<String> whiteList = new HashSet<>(StrUtil.splitTrim(whitelist, ","));
         String path = exchange.getRequest().getPath().toString();
@@ -43,7 +44,7 @@ public class AuthFilter implements GlobalFilter, Ordered {
         }
 
         String[] pathSegments = path.split("/");
-        if (!whiteList.contains(pathSegments[1])) {
+        if (whiteList.stream().noneMatch(white -> white.matches(pathSegments[0]))) {
             // 认证
             String authorization = exchange.getRequest().getHeaders().getFirst(HttpHeaders.AUTHORIZATION);
 
@@ -74,7 +75,7 @@ public class AuthFilter implements GlobalFilter, Ordered {
 
     @Override
     public int getOrder() {
-        return 0;
+        return HIGHEST_PRECEDENCE;
     }
 
     private Mono<Void> unauthorized(ServerWebExchange serverWebExchange) {
