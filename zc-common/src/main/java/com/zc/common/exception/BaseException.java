@@ -2,6 +2,9 @@ package com.zc.common.exception;
 
 import lombok.Getter;
 
+/**
+ * @author zichen
+ */
 @Getter
 public class BaseException extends RuntimeException {
     /**
@@ -20,13 +23,4 @@ public class BaseException extends RuntimeException {
         this.errorType = errorType;
     }
 
-    public BaseException(ErrorType errorType, String message) {
-        super(message);
-        this.errorType = errorType;
-    }
-
-    public BaseException(ErrorType errorType, String message, Throwable cause) {
-        super(message, cause);
-        this.errorType = errorType;
-    }
 }

@@ -14,4 +14,5 @@ public interface UserService {
      */
     String login(UserDTO userDTO);
 
+    int insert();
 }

@@ -15,6 +15,8 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-redis'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // 数据库相关
     implementation 'mysql:mysql-connector-java'
     implementation 'com.alibaba:druid-spring-boot-starter:1.1.9'
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.2'
@@ -36,6 +38,16 @@ dependencies {
     // Lombok
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
+
+    // Hutool 工具包
+    implementation 'cn.hutool:hutool-all:4.5.12'
+
+    // seata分布式事务
+    implementation 'com.alibaba.cloud:spring-cloud-alibaba-seata:2.1.0.RELEASE'
+    implementation 'io.seata:seata-all:1.2.0'
+
+    // FeignClient
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:2.2.3.RELEASE'
 
     // 自己的通用包
     compile project(':zc-common')

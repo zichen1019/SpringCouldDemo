@@ -33,4 +33,9 @@ public class UserController {
         }
     }
 
+    @GetMapping("/insert")
+    public int insert() {
+        return userService.insert();
+    }
+
 }

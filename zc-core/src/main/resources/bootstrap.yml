@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8082
 
 spring:
   application:
@@ -13,10 +13,15 @@ spring:
     allow-bean-definition-overriding: true
 
   cloud:
+    alibaba:
+      seata:
+        tx-service-group: zc-core-provider-group
+
     nacos:
       # 注册中心
       discovery:
         server-addr: 127.0.0.1:8848
+        group: DEV_GROUP
         namespace: 001d4d62-9fbd-4cef-832a-c21777a2572f
 
       # 配置中心

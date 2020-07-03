@@ -28,3 +28,14 @@ pagehelper:
   params: count=countSql
 
 secret_key: admin
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+logging:
+  level:
+    io:
+      seata: debug

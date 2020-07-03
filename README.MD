@@ -17,13 +17,19 @@
 技术名称|相关介绍
 ---|---
 nacos | [nacos 文档](https://nacos.io/zh-cn/docs/quick-start-spring-cloud.html)
-
+seata | [seata 文档](https://seata.io/zh-cn/docs/overview/what-is-seata.html)
 
 ### nacos
 
 #### [配置方式](https://github.com/alibaba/spring-cloud-alibaba/wiki/Nacos-config)
 
 #### nacos-server
+
+### seata
+
+#### [快速开始](https://seata.io/zh-cn/docs/user/quickstart.html)
+
+#### [配置文档](https://github.com/seata/seata-samples/tree/master/springcloud-nacos-seata)
 
 > 默认登录用户及密码为：nacos
 

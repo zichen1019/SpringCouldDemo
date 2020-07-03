@@ -2,6 +2,10 @@ package com.zc.common.exception;
 
 import lombok.Getter;
 
+/**
+ * @author zichen
+ */
+
 @Getter
 public enum SystemErrorType implements ErrorType {
 
@@ -19,7 +23,10 @@ public enum SystemErrorType implements ErrorType {
     INVALID_TOKEN(20001, "无效token"),
     UPLOAD_FILE_SIZE_LIMIT(20010, "上传文件大小超过限制"),
 
-    DUPLICATE_PRIMARY_KEY(30000,"唯一键冲突");
+    DUPLICATE_PRIMARY_KEY(30000,"唯一键冲突"),
+
+    USER_USERNAME_IS_NOT_NULL(50000, "用户名不能为空"),
+    USER_PASSWORD_IS_NOT_NULL(50001, "用户密码不能为空");
 
     /**
      * 错误类型码
