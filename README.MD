@@ -14,10 +14,10 @@
 
 ## 技术点
 
-技术名称|相关介绍
----|---
-nacos | [nacos 文档](https://nacos.io/zh-cn/docs/quick-start-spring-cloud.html)
-seata | [seata 文档](https://seata.io/zh-cn/docs/overview/what-is-seata.html)
+技术名称|版本|相关介绍
+---|---|---
+nacos | 1.3.1-BETA | [nacos 文档](https://nacos.io/zh-cn/docs/quick-start-spring-cloud.html)
+seata | 0.8.0 | [seata 文档](https://seata.io/zh-cn/docs/overview/what-is-seata.html)
 
 ### nacos
 
