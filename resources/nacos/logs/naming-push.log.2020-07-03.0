@@ -1,0 +1,1338 @@
+2020-07-03 09:32:30,325 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:36:59,857 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:37:16,119 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 09:39:50,975 WARN client: 169.254.254.171:55697 already associated with key serviceName: DEV_GROUP@@zc-login-provider, clusters: , address: /169.254.254.171:55697, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 09:39:53,434 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:39:53,450 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:55697, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,55697,80663955518900
+
+2020-07-03 09:39:53,450 INFO send udp packet: 169.254.254.171,55697,80663955518900
+
+2020-07-03 09:39:53,456 INFO received ack: {"type": "push-ack", "lastRefTime":"80663955518900", "data":""} from: 169.254.254.171:55697, cost: 6 ms, unacked: 0, total push: 1
+
+2020-07-03 09:40:52,049 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:40:52,049 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:55697, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,55697,80722570298700
+
+2020-07-03 09:40:52,049 INFO send udp packet: 169.254.254.171,55697,80722570298700
+
+2020-07-03 09:41:02,052 INFO retry to push data, key: 169.254.254.171,55697,80722570298700
+
+2020-07-03 09:41:02,052 INFO send udp packet: 169.254.254.171,55697,80722570298700
+
+2020-07-03 09:41:08,417 WARN client: 169.254.254.171:56339 already associated with key serviceName: DEV_GROUP@@zc-login-provider, clusters: , address: /169.254.254.171:56339, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 09:41:08,534 WARN client: 169.254.254.171:56339 already associated with key serviceName: DEV_GROUP@@zc-gateway-consumer, clusters: , address: /169.254.254.171:56339, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 09:41:10,986 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:41:10,988 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:56339, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,56339,80741507614000
+
+2020-07-03 09:41:10,988 INFO send udp packet: 169.254.254.171,56339,80741507614000
+
+2020-07-03 09:41:10,994 INFO received ack: {"type": "push-ack", "lastRefTime":"80741507614000", "data":""} from: 169.254.254.171:56339, cost: 6 ms, unacked: 1, total push: 3
+
+2020-07-03 09:41:12,054 INFO retry to push data, key: 169.254.254.171,55697,80722570298700
+
+2020-07-03 09:41:12,054 WARN max re-push times reached, retry times 2, key: 169.254.254.171,55697,80722570298700
+
+2020-07-03 09:44:03,001 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:44:03,001 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:56339, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,56339,80913521982500
+
+2020-07-03 09:44:03,002 INFO send udp packet: 169.254.254.171,56339,80913521982500
+
+2020-07-03 09:44:13,003 INFO retry to push data, key: 169.254.254.171,56339,80913521982500
+
+2020-07-03 09:44:13,003 INFO send udp packet: 169.254.254.171,56339,80913521982500
+
+2020-07-03 09:44:20,763 WARN client: 169.254.254.171:64694 already associated with key serviceName: DEV_GROUP@@zc-gateway-consumer, clusters: , address: /169.254.254.171:64694, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 09:44:23,004 INFO retry to push data, key: 169.254.254.171,56339,80913521982500
+
+2020-07-03 09:44:23,004 WARN max re-push times reached, retry times 2, key: 169.254.254.171,56339,80913521982500
+
+2020-07-03 09:44:23,299 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:44:23,299 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:64694, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,64694,80933819917600
+
+2020-07-03 09:44:23,300 INFO send udp packet: 169.254.254.171,64694,80933819917600
+
+2020-07-03 09:44:23,304 INFO received ack: {"type": "push-ack", "lastRefTime":"80933819917600", "data":""} from: 169.254.254.171:64694, cost: 4 ms, unacked: 0, total push: 5
+
+2020-07-03 09:45:42,585 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:45:57,067 WARN client: 169.254.254.171:54043 already associated with key serviceName: DEV_GROUP@@zc-login-provider, clusters: , address: /169.254.254.171:54043, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 09:45:59,610 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:45:59,610 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:54043, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,54043,81030130632800
+
+2020-07-03 09:45:59,610 INFO send udp packet: 169.254.254.171,54043,81030130632800
+
+2020-07-03 09:45:59,615 INFO received ack: {"type": "push-ack", "lastRefTime":"81030130632800", "data":""} from: 169.254.254.171:54043, cost: 5 ms, unacked: 0, total push: 6
+
+2020-07-03 09:46:38,554 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:46:53,742 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:47:01,394 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:47:18,286 WARN client: 169.254.254.171:54068 already associated with key serviceName: DEV_GROUP@@zc-gateway-consumer, clusters: , address: /169.254.254.171:54068, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 09:47:20,726 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:47:20,726 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:54068, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,54068,81111247045600
+
+2020-07-03 09:47:20,726 INFO send udp packet: 169.254.254.171,54068,81111247045600
+
+2020-07-03 09:47:20,732 INFO received ack: {"type": "push-ack", "lastRefTime":"81111247045600", "data":""} from: 169.254.254.171:54068, cost: 6 ms, unacked: 0, total push: 7
+
+2020-07-03 09:47:48,756 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:48:03,771 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:48:19,440 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:48:19,440 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:54068, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,54068,81169961107700
+
+2020-07-03 09:48:19,440 INFO send udp packet: 169.254.254.171,54068,81169961107700
+
+2020-07-03 09:48:19,442 INFO received ack: {"type": "push-ack", "lastRefTime":"81169961107700", "data":""} from: 169.254.254.171:54068, cost: 2 ms, unacked: 0, total push: 8
+
+2020-07-03 09:48:23,049 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:48:23,049 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:54068, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,54068,81173570473500
+
+2020-07-03 09:48:23,049 INFO send udp packet: 169.254.254.171,54068,81173570473500
+
+2020-07-03 09:48:33,051 INFO retry to push data, key: 169.254.254.171,54068,81173570473500
+
+2020-07-03 09:48:33,051 INFO send udp packet: 169.254.254.171,54068,81173570473500
+
+2020-07-03 09:48:37,306 WARN client: 169.254.254.171:54088 already associated with key serviceName: DEV_GROUP@@zc-login-provider, clusters: , address: /169.254.254.171:54088, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 09:48:39,774 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:48:39,774 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:54088, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,54088,81190294964900
+
+2020-07-03 09:48:39,774 INFO send udp packet: 169.254.254.171,54088,81190294964900
+
+2020-07-03 09:48:39,779 INFO received ack: {"type": "push-ack", "lastRefTime":"81190294964900", "data":""} from: 169.254.254.171:54088, cost: 5 ms, unacked: 1, total push: 10
+
+2020-07-03 09:48:43,051 INFO retry to push data, key: 169.254.254.171,54068,81173570473500
+
+2020-07-03 09:48:43,051 WARN max re-push times reached, retry times 2, key: 169.254.254.171,54068,81173570473500
+
+2020-07-03 09:49:08,778 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:49:11,171 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:49:11,171 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:54088, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,54088,81221692369800
+
+2020-07-03 09:49:11,171 INFO send udp packet: 169.254.254.171,54088,81221692369800
+
+2020-07-03 09:49:11,172 INFO received ack: {"type": "push-ack", "lastRefTime":"81221692369800", "data":""} from: 169.254.254.171:54088, cost: 1 ms, unacked: 0, total push: 11
+
+2020-07-03 09:52:06,900 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:52:06,900 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:54088, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,54088,81397420792600
+
+2020-07-03 09:52:06,900 INFO send udp packet: 169.254.254.171,54088,81397420792600
+
+2020-07-03 09:52:16,901 INFO retry to push data, key: 169.254.254.171,54088,81397420792600
+
+2020-07-03 09:52:16,901 INFO send udp packet: 169.254.254.171,54088,81397420792600
+
+2020-07-03 09:52:25,887 WARN client: 169.254.254.171:60562 already associated with key serviceName: DEV_GROUP@@zc-gateway-consumer, clusters: , address: /169.254.254.171:60562, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 09:52:26,904 INFO retry to push data, key: 169.254.254.171,54088,81397420792600
+
+2020-07-03 09:52:26,904 WARN max re-push times reached, retry times 2, key: 169.254.254.171,54088,81397420792600
+
+2020-07-03 09:52:42,981 WARN client: 169.254.254.171:60567 already associated with key serviceName: DEV_GROUP@@zc-login-provider, clusters: , address: /169.254.254.171:60567, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 09:52:43,123 WARN client: 169.254.254.171:60567 already associated with key serviceName: DEV_GROUP@@zc-gateway-consumer, clusters: , address: /169.254.254.171:60567, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 09:52:45,506 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 09:52:45,506 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:60567, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,60567,81436026995300
+
+2020-07-03 09:52:45,506 INFO send udp packet: 169.254.254.171,60567,81436026995300
+
+2020-07-03 09:52:45,511 INFO received ack: {"type": "push-ack", "lastRefTime":"81436026995300", "data":""} from: 169.254.254.171:60567, cost: 5 ms, unacked: 0, total push: 13
+
+2020-07-03 10:09:58,751 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 10:10:16,938 WARN client: 169.254.254.171:53969 already associated with key serviceName: DEV_GROUP@@zc-gateway-consumer, clusters: , address: /169.254.254.171:53969, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 10:10:19,362 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 10:10:19,362 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:53969, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,53969,82489883490800
+
+2020-07-03 10:10:19,362 INFO send udp packet: 169.254.254.171,53969,82489883490800
+
+2020-07-03 10:10:19,368 INFO received ack: {"type": "push-ack", "lastRefTime":"82489883490800", "data":""} from: 169.254.254.171:53969, cost: 6 ms, unacked: 0, total push: 14
+
+2020-07-03 10:11:04,282 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 10:11:06,053 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 10:33:48,763 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 10:33:48,763 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:53969, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,53969,83899283908100
+
+2020-07-03 10:33:48,763 INFO send udp packet: 169.254.254.171,53969,83899283908100
+
+2020-07-03 10:33:58,765 INFO retry to push data, key: 169.254.254.171,53969,83899283908100
+
+2020-07-03 10:33:58,765 INFO send udp packet: 169.254.254.171,53969,83899283908100
+
+2020-07-03 10:34:05,195 WARN client: 169.254.254.171:56282 already associated with key serviceName: DEV_GROUP@@zc-login-provider, clusters: , address: /169.254.254.171:56282, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 10:34:07,781 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 10:34:07,782 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:56282, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,56282,83918303148500
+
+2020-07-03 10:34:07,782 INFO send udp packet: 169.254.254.171,56282,83918303148500
+
+2020-07-03 10:34:07,787 INFO received ack: {"type": "push-ack", "lastRefTime":"83918303148500", "data":""} from: 169.254.254.171:56282, cost: 5 ms, unacked: 1, total push: 16
+
+2020-07-03 10:34:08,766 INFO retry to push data, key: 169.254.254.171,53969,83899283908100
+
+2020-07-03 10:34:08,766 WARN max re-push times reached, retry times 2, key: 169.254.254.171,53969,83899283908100
+
+2020-07-03 10:34:34,594 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 10:34:49,608 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 10:37:24,361 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 10:37:24,361 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:56282, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,56282,84114881568600
+
+2020-07-03 10:37:24,361 INFO send udp packet: 169.254.254.171,56282,84114881568600
+
+2020-07-03 10:37:24,363 INFO received ack: {"type": "push-ack", "lastRefTime":"84114881568600", "data":""} from: 169.254.254.171:56282, cost: 2 ms, unacked: 0, total push: 17
+
+2020-07-03 11:04:16,034 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:04:16,034 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:56282, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,56282,85724242208000
+
+2020-07-03 11:04:16,034 INFO send udp packet: 169.254.254.171,56282,85724242208000
+
+2020-07-03 11:04:26,035 INFO retry to push data, key: 169.254.254.171,56282,85724242208000
+
+2020-07-03 11:04:26,035 INFO send udp packet: 169.254.254.171,56282,85724242208000
+
+2020-07-03 11:04:33,368 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:04:33,368 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:57050, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,57050,85741575809800
+
+2020-07-03 11:04:33,368 INFO send udp packet: 169.254.254.171,57050,85741575809800
+
+2020-07-03 11:04:33,373 INFO received ack: {"type": "push-ack", "lastRefTime":"85741575809800", "data":""} from: 169.254.254.171:57050, cost: 5 ms, unacked: 1, total push: 19
+
+2020-07-03 11:04:36,036 INFO retry to push data, key: 169.254.254.171,56282,85724242208000
+
+2020-07-03 11:04:36,036 WARN max re-push times reached, retry times 2, key: 169.254.254.171,56282,85724242208000
+
+2020-07-03 11:07:09,996 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:07:09,996 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:57050, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,57050,85898204093300
+
+2020-07-03 11:07:09,996 INFO send udp packet: 169.254.254.171,57050,85898204093300
+
+2020-07-03 11:07:19,999 INFO retry to push data, key: 169.254.254.171,57050,85898204093300
+
+2020-07-03 11:07:19,999 INFO send udp packet: 169.254.254.171,57050,85898204093300
+
+2020-07-03 11:07:29,081 WARN client: 169.254.254.171:53453 already associated with key serviceName: DEV_GROUP@@zc-login-provider, clusters: , address: /169.254.254.171:53453, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 11:07:29,189 WARN client: 169.254.254.171:53453 already associated with key serviceName: DEV_GROUP@@zc-gateway-consumer, clusters: , address: /169.254.254.171:53453, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 11:07:30,000 INFO retry to push data, key: 169.254.254.171,57050,85898204093300
+
+2020-07-03 11:07:30,000 WARN max re-push times reached, retry times 2, key: 169.254.254.171,57050,85898204093300
+
+2020-07-03 11:07:31,615 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:07:31,615 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:53453, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,53453,85919823283400
+
+2020-07-03 11:07:31,615 INFO send udp packet: 169.254.254.171,53453,85919823283400
+
+2020-07-03 11:07:31,621 INFO received ack: {"type": "push-ack", "lastRefTime":"85919823283400", "data":""} from: 169.254.254.171:53453, cost: 6 ms, unacked: 0, total push: 21
+
+2020-07-03 11:08:26,113 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:08:26,114 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:53453, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,53453,85974321948800
+
+2020-07-03 11:08:26,114 INFO send udp packet: 169.254.254.171,53453,85974321948800
+
+2020-07-03 11:08:36,116 INFO retry to push data, key: 169.254.254.171,53453,85974321948800
+
+2020-07-03 11:08:36,116 INFO send udp packet: 169.254.254.171,53453,85974321948800
+
+2020-07-03 11:08:40,798 WARN client: 169.254.254.171:53471 already associated with key serviceName: DEV_GROUP@@zc-login-provider, clusters: , address: /169.254.254.171:53471, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 11:08:43,330 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:08:43,330 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:53471, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,53471,85991537963500
+
+2020-07-03 11:08:43,330 INFO send udp packet: 169.254.254.171,53471,85991537963500
+
+2020-07-03 11:08:43,335 INFO received ack: {"type": "push-ack", "lastRefTime":"85991537963500", "data":""} from: 169.254.254.171:53471, cost: 5 ms, unacked: 1, total push: 23
+
+2020-07-03 11:08:46,119 INFO retry to push data, key: 169.254.254.171,53453,85974321948800
+
+2020-07-03 11:08:46,119 WARN max re-push times reached, retry times 2, key: 169.254.254.171,53453,85974321948800
+
+2020-07-03 11:09:20,175 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:09:20,175 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:53471, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,53471,86028383188000
+
+2020-07-03 11:09:20,175 INFO send udp packet: 169.254.254.171,53471,86028383188000
+
+2020-07-03 11:09:30,176 INFO retry to push data, key: 169.254.254.171,53471,86028383188000
+
+2020-07-03 11:09:30,176 INFO send udp packet: 169.254.254.171,53471,86028383188000
+
+2020-07-03 11:09:36,602 WARN client: 169.254.254.171:61301 already associated with key serviceName: DEV_GROUP@@zc-login-provider, clusters: , address: /169.254.254.171:61301, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 11:09:36,712 WARN client: 169.254.254.171:61301 already associated with key serviceName: DEV_GROUP@@zc-gateway-consumer, clusters: , address: /169.254.254.171:61301, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 11:09:39,157 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:09:39,157 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:61301, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,61301,86047365605200
+
+2020-07-03 11:09:39,157 INFO send udp packet: 169.254.254.171,61301,86047365605200
+
+2020-07-03 11:09:39,164 INFO received ack: {"type": "push-ack", "lastRefTime":"86047365605200", "data":""} from: 169.254.254.171:61301, cost: 7 ms, unacked: 1, total push: 25
+
+2020-07-03 11:09:40,178 INFO retry to push data, key: 169.254.254.171,53471,86028383188000
+
+2020-07-03 11:09:40,178 WARN max re-push times reached, retry times 2, key: 169.254.254.171,53471,86028383188000
+
+2020-07-03 11:10:37,837 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:10:52,345 WARN client: 169.254.254.171:57565 already associated with key serviceName: DEV_GROUP@@zc-login-provider, clusters: , address: /169.254.254.171:57565, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 11:10:54,872 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:10:54,872 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:57565, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,57565,86123079894400
+
+2020-07-03 11:10:54,872 INFO send udp packet: 169.254.254.171,57565,86123079894400
+
+2020-07-03 11:10:54,877 INFO received ack: {"type": "push-ack", "lastRefTime":"86123079894400", "data":""} from: 169.254.254.171:57565, cost: 5 ms, unacked: 0, total push: 26
+
+2020-07-03 11:13:48,827 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:13:48,827 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:57565, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,57565,86297034824600
+
+2020-07-03 11:13:48,827 INFO send udp packet: 169.254.254.171,57565,86297034824600
+
+2020-07-03 11:13:58,829 INFO retry to push data, key: 169.254.254.171,57565,86297034824600
+
+2020-07-03 11:13:58,829 INFO send udp packet: 169.254.254.171,57565,86297034824600
+
+2020-07-03 11:14:06,528 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:14:06,528 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:60843, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,60843,86314735739800
+
+2020-07-03 11:14:06,528 INFO send udp packet: 169.254.254.171,60843,86314735739800
+
+2020-07-03 11:14:06,534 INFO received ack: {"type": "push-ack", "lastRefTime":"86314735739800", "data":""} from: 169.254.254.171:60843, cost: 6 ms, unacked: 1, total push: 28
+
+2020-07-03 11:14:08,831 INFO retry to push data, key: 169.254.254.171,57565,86297034824600
+
+2020-07-03 11:14:08,831 WARN max re-push times reached, retry times 2, key: 169.254.254.171,57565,86297034824600
+
+2020-07-03 11:15:27,255 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:15:27,255 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:60843, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,60843,86395463127400
+
+2020-07-03 11:15:27,255 INFO send udp packet: 169.254.254.171,60843,86395463127400
+
+2020-07-03 11:15:37,257 INFO retry to push data, key: 169.254.254.171,60843,86395463127400
+
+2020-07-03 11:15:37,257 INFO send udp packet: 169.254.254.171,60843,86395463127400
+
+2020-07-03 11:15:42,934 WARN client: 169.254.254.171:62658 already associated with key serviceName: DEV_GROUP@@zc-login-provider, clusters: , address: /169.254.254.171:62658, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 11:15:43,053 WARN client: 169.254.254.171:62658 already associated with key serviceName: DEV_GROUP@@zc-gateway-consumer, clusters: , address: /169.254.254.171:62658, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 11:15:45,444 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:15:45,444 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:62658, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,62658,86413652058400
+
+2020-07-03 11:15:45,444 INFO send udp packet: 169.254.254.171,62658,86413652058400
+
+2020-07-03 11:15:45,449 INFO received ack: {"type": "push-ack", "lastRefTime":"86413652058400", "data":""} from: 169.254.254.171:62658, cost: 5 ms, unacked: 1, total push: 30
+
+2020-07-03 11:15:47,260 INFO retry to push data, key: 169.254.254.171,60843,86395463127400
+
+2020-07-03 11:15:47,260 WARN max re-push times reached, retry times 2, key: 169.254.254.171,60843,86395463127400
+
+2020-07-03 11:17:55,124 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:17:55,124 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:62658, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,62658,86543332488600
+
+2020-07-03 11:17:55,124 INFO send udp packet: 169.254.254.171,62658,86543332488600
+
+2020-07-03 11:18:05,127 INFO retry to push data, key: 169.254.254.171,62658,86543332488600
+
+2020-07-03 11:18:05,127 INFO send udp packet: 169.254.254.171,62658,86543332488600
+
+2020-07-03 11:18:12,230 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:18:12,232 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:61517, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,61517,86560439852000
+
+2020-07-03 11:18:12,232 INFO send udp packet: 169.254.254.171,61517,86560439852000
+
+2020-07-03 11:18:12,239 INFO received ack: {"type": "push-ack", "lastRefTime":"86560439852000", "data":""} from: 169.254.254.171:61517, cost: 7 ms, unacked: 1, total push: 32
+
+2020-07-03 11:18:15,128 INFO retry to push data, key: 169.254.254.171,62658,86543332488600
+
+2020-07-03 11:18:15,128 WARN max re-push times reached, retry times 2, key: 169.254.254.171,62658,86543332488600
+
+2020-07-03 11:19:11,340 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:19:27,731 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:19:27,734 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:49725, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,49725,86635940097500
+
+2020-07-03 11:19:27,735 INFO send udp packet: 169.254.254.171,49725,86635940097500
+
+2020-07-03 11:19:27,743 INFO received ack: {"type": "push-ack", "lastRefTime":"86635940097500", "data":""} from: 169.254.254.171:49725, cost: 8 ms, unacked: 0, total push: 33
+
+2020-07-03 11:20:27,925 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:20:27,925 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:49725, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,49725,86696133061700
+
+2020-07-03 11:20:27,926 INFO send udp packet: 169.254.254.171,49725,86696133061700
+
+2020-07-03 11:20:37,927 INFO retry to push data, key: 169.254.254.171,49725,86696133061700
+
+2020-07-03 11:20:37,927 INFO send udp packet: 169.254.254.171,49725,86696133061700
+
+2020-07-03 11:20:44,409 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:20:44,409 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:60712, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,60712,86712617209200
+
+2020-07-03 11:20:44,409 INFO send udp packet: 169.254.254.171,60712,86712617209200
+
+2020-07-03 11:20:44,415 INFO received ack: {"type": "push-ack", "lastRefTime":"86712617209200", "data":""} from: 169.254.254.171:60712, cost: 6 ms, unacked: 1, total push: 35
+
+2020-07-03 11:20:47,928 INFO retry to push data, key: 169.254.254.171,49725,86696133061700
+
+2020-07-03 11:20:47,928 WARN max re-push times reached, retry times 2, key: 169.254.254.171,49725,86696133061700
+
+2020-07-03 11:21:13,517 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:21:36,975 WARN client: 169.254.254.171:58847 already associated with key serviceName: DEV_GROUP@@zc-gateway-consumer, clusters: , address: /169.254.254.171:58847, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 11:21:39,392 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:21:39,392 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:58847, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,58847,86767600533100
+
+2020-07-03 11:21:39,392 INFO send udp packet: 169.254.254.171,58847,86767600533100
+
+2020-07-03 11:21:39,397 INFO received ack: {"type": "push-ack", "lastRefTime":"86767600533100", "data":""} from: 169.254.254.171:58847, cost: 5 ms, unacked: 0, total push: 36
+
+2020-07-03 11:24:01,931 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:24:01,931 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:58847, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,58847,86910139620100
+
+2020-07-03 11:24:01,931 INFO send udp packet: 169.254.254.171,58847,86910139620100
+
+2020-07-03 11:24:11,934 INFO retry to push data, key: 169.254.254.171,58847,86910139620100
+
+2020-07-03 11:24:11,934 INFO send udp packet: 169.254.254.171,58847,86910139620100
+
+2020-07-03 11:24:18,290 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:24:18,290 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:62895, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,62895,86926499200800
+
+2020-07-03 11:24:18,291 INFO send udp packet: 169.254.254.171,62895,86926499200800
+
+2020-07-03 11:24:18,296 INFO received ack: {"type": "push-ack", "lastRefTime":"86926499200800", "data":""} from: 169.254.254.171:62895, cost: 5 ms, unacked: 1, total push: 38
+
+2020-07-03 11:24:21,935 INFO retry to push data, key: 169.254.254.171,58847,86910139620100
+
+2020-07-03 11:24:21,935 WARN max re-push times reached, retry times 2, key: 169.254.254.171,58847,86910139620100
+
+2020-07-03 11:24:22,267 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:24:22,267 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:62895, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,62895,86930474882500
+
+2020-07-03 11:24:22,267 INFO send udp packet: 169.254.254.171,62895,86930474882500
+
+2020-07-03 11:24:32,269 INFO retry to push data, key: 169.254.254.171,62895,86930474882500
+
+2020-07-03 11:24:32,269 INFO send udp packet: 169.254.254.171,62895,86930474882500
+
+2020-07-03 11:24:42,270 INFO retry to push data, key: 169.254.254.171,62895,86930474882500
+
+2020-07-03 11:24:42,270 WARN max re-push times reached, retry times 2, key: 169.254.254.171,62895,86930474882500
+
+2020-07-03 11:25:21,942 WARN client: 169.254.254.171:62914 already associated with key serviceName: DEV_GROUP@@zc-login-provider, clusters: , address: /169.254.254.171:62914, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 11:25:22,053 WARN client: 169.254.254.171:62914 already associated with key serviceName: DEV_GROUP@@zc-gateway-consumer, clusters: , address: /169.254.254.171:62914, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 11:25:24,445 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:25:24,446 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:62914, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,62914,86992653575800
+
+2020-07-03 11:25:24,446 INFO send udp packet: 169.254.254.171,62914,86992653575800
+
+2020-07-03 11:25:24,456 INFO received ack: {"type": "push-ack", "lastRefTime":"86992653575800", "data":""} from: 169.254.254.171:62914, cost: 10 ms, unacked: 0, total push: 40
+
+2020-07-03 11:42:16,262 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:42:16,262 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:62914, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,62914,88004470769400
+
+2020-07-03 11:42:16,262 INFO send udp packet: 169.254.254.171,62914,88004470769400
+
+2020-07-03 11:42:26,265 INFO retry to push data, key: 169.254.254.171,62914,88004470769400
+
+2020-07-03 11:42:26,265 INFO send udp packet: 169.254.254.171,62914,88004470769400
+
+2020-07-03 11:42:33,140 WARN client: 2.0.1.21:57006 already associated with key serviceName: DEV_GROUP@@zc-login-provider, clusters: , address: /2.0.1.21:57006, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 11:42:35,785 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:42:35,785 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:57006, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,57006,88023993454700
+
+2020-07-03 11:42:35,785 INFO send udp packet: 2.0.1.21,57006,88023993454700
+
+2020-07-03 11:42:35,790 INFO received ack: {"type": "push-ack", "lastRefTime":"88023993454700", "data":""} from: 2.0.1.21:57006, cost: 5 ms, unacked: 1, total push: 42
+
+2020-07-03 11:42:36,266 INFO retry to push data, key: 169.254.254.171,62914,88004470769400
+
+2020-07-03 11:42:36,266 WARN max re-push times reached, retry times 2, key: 169.254.254.171,62914,88004470769400
+
+2020-07-03 11:44:37,483 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:44:37,483 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:57006, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,57006,88145691379900
+
+2020-07-03 11:44:37,483 INFO send udp packet: 2.0.1.21,57006,88145691379900
+
+2020-07-03 11:44:47,486 INFO retry to push data, key: 2.0.1.21,57006,88145691379900
+
+2020-07-03 11:44:47,486 INFO send udp packet: 2.0.1.21,57006,88145691379900
+
+2020-07-03 11:44:56,175 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:44:56,175 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:51942, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,51942,88164383297500
+
+2020-07-03 11:44:56,175 INFO send udp packet: 2.0.1.21,51942,88164383297500
+
+2020-07-03 11:44:56,180 INFO received ack: {"type": "push-ack", "lastRefTime":"88164383297500", "data":""} from: 2.0.1.21:51942, cost: 5 ms, unacked: 1, total push: 44
+
+2020-07-03 11:44:57,487 INFO retry to push data, key: 2.0.1.21,57006,88145691379900
+
+2020-07-03 11:44:57,487 WARN max re-push times reached, retry times 2, key: 2.0.1.21,57006,88145691379900
+
+2020-07-03 11:45:52,651 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:46:07,663 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 11:51:13,227 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:41:49,594 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:41:49,594 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:51942, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,51942,95177802373800
+
+2020-07-03 13:41:49,595 INFO send udp packet: 2.0.1.21,51942,95177802373800
+
+2020-07-03 13:41:59,597 INFO retry to push data, key: 2.0.1.21,51942,95177802373800
+
+2020-07-03 13:41:59,597 INFO send udp packet: 2.0.1.21,51942,95177802373800
+
+2020-07-03 13:42:06,658 WARN client: 2.0.1.21:63507 already associated with key serviceName: DEV_GROUP@@zc-gateway-consumer, clusters: , address: /2.0.1.21:63507, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 13:42:09,334 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:42:09,334 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:63507, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,63507,95197542528500
+
+2020-07-03 13:42:09,334 INFO send udp packet: 2.0.1.21,63507,95197542528500
+
+2020-07-03 13:42:09,339 INFO received ack: {"type": "push-ack", "lastRefTime":"95197542528500", "data":""} from: 2.0.1.21:63507, cost: 5 ms, unacked: 1, total push: 46
+
+2020-07-03 13:42:09,598 INFO retry to push data, key: 2.0.1.21,51942,95177802373800
+
+2020-07-03 13:42:09,598 WARN max re-push times reached, retry times 2, key: 2.0.1.21,51942,95177802373800
+
+2020-07-03 13:43:43,661 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:43:43,661 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:63507, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,63507,95291869470800
+
+2020-07-03 13:43:43,661 INFO send udp packet: 2.0.1.21,63507,95291869470800
+
+2020-07-03 13:43:53,663 INFO retry to push data, key: 2.0.1.21,63507,95291869470800
+
+2020-07-03 13:43:53,663 INFO send udp packet: 2.0.1.21,63507,95291869470800
+
+2020-07-03 13:44:01,936 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:44:01,937 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:59969, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,59969,95310145331300
+
+2020-07-03 13:44:01,937 INFO send udp packet: 2.0.1.21,59969,95310145331300
+
+2020-07-03 13:44:01,941 INFO received ack: {"type": "push-ack", "lastRefTime":"95310145331300", "data":""} from: 2.0.1.21:59969, cost: 4 ms, unacked: 1, total push: 48
+
+2020-07-03 13:44:03,664 INFO retry to push data, key: 2.0.1.21,63507,95291869470800
+
+2020-07-03 13:44:03,664 WARN max re-push times reached, retry times 2, key: 2.0.1.21,63507,95291869470800
+
+2020-07-03 13:45:19,567 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:45:28,821 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:45:28,821 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:59969, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,59969,95397029778400
+
+2020-07-03 13:45:28,821 INFO send udp packet: 2.0.1.21,59969,95397029778400
+
+2020-07-03 13:45:31,748 INFO received ack: {"type": "push-ack", "lastRefTime":"95397029778400", "data":""} from: 2.0.1.21:59969, cost: 2927 ms, unacked: 0, total push: 49
+
+2020-07-03 13:46:25,204 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:46:25,204 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:59969, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,59969,95453412633700
+
+2020-07-03 13:46:25,204 INFO send udp packet: 2.0.1.21,59969,95453412633700
+
+2020-07-03 13:46:35,206 INFO retry to push data, key: 2.0.1.21,59969,95453412633700
+
+2020-07-03 13:46:35,206 INFO send udp packet: 2.0.1.21,59969,95453412633700
+
+2020-07-03 13:46:43,028 WARN client: 2.0.1.21:51160 already associated with key serviceName: DEV_GROUP@@zc-gateway-consumer, clusters: , address: /2.0.1.21:51160, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 13:46:45,209 INFO retry to push data, key: 2.0.1.21,59969,95453412633700
+
+2020-07-03 13:46:45,210 WARN max re-push times reached, retry times 2, key: 2.0.1.21,59969,95453412633700
+
+2020-07-03 13:46:46,181 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:46:46,181 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:51160, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,51160,95474388800100
+
+2020-07-03 13:46:46,181 INFO send udp packet: 2.0.1.21,51160,95474388800100
+
+2020-07-03 13:46:46,185 INFO received ack: {"type": "push-ack", "lastRefTime":"95474388800100", "data":""} from: 2.0.1.21:51160, cost: 4 ms, unacked: 0, total push: 51
+
+2020-07-03 13:48:02,705 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:48:02,705 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:51160, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,51160,95550913585400
+
+2020-07-03 13:48:02,705 INFO send udp packet: 2.0.1.21,51160,95550913585400
+
+2020-07-03 13:48:12,707 INFO retry to push data, key: 2.0.1.21,51160,95550913585400
+
+2020-07-03 13:48:12,707 INFO send udp packet: 2.0.1.21,51160,95550913585400
+
+2020-07-03 13:48:22,708 INFO retry to push data, key: 2.0.1.21,51160,95550913585400
+
+2020-07-03 13:48:22,709 WARN max re-push times reached, retry times 2, key: 2.0.1.21,51160,95550913585400
+
+2020-07-03 13:48:23,106 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:48:23,107 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:52657, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,52657,95571314938900
+
+2020-07-03 13:48:23,107 INFO send udp packet: 2.0.1.21,52657,95571314938900
+
+2020-07-03 13:48:23,118 INFO received ack: {"type": "push-ack", "lastRefTime":"95571314938900", "data":""} from: 2.0.1.21:52657, cost: 11 ms, unacked: 0, total push: 53
+
+2020-07-03 13:57:57,493 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:57:57,493 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:52657, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,52657,96145700953900
+
+2020-07-03 13:57:57,493 INFO send udp packet: 2.0.1.21,52657,96145700953900
+
+2020-07-03 13:58:07,494 INFO retry to push data, key: 2.0.1.21,52657,96145700953900
+
+2020-07-03 13:58:07,494 INFO send udp packet: 2.0.1.21,52657,96145700953900
+
+2020-07-03 13:58:16,406 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:58:16,406 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:54231, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54231,96164614317300
+
+2020-07-03 13:58:16,406 INFO send udp packet: 2.0.1.21,54231,96164614317300
+
+2020-07-03 13:58:16,412 INFO received ack: {"type": "push-ack", "lastRefTime":"96164614317300", "data":""} from: 2.0.1.21:54231, cost: 6 ms, unacked: 1, total push: 55
+
+2020-07-03 13:58:17,495 INFO retry to push data, key: 2.0.1.21,52657,96145700953900
+
+2020-07-03 13:58:17,495 WARN max re-push times reached, retry times 2, key: 2.0.1.21,52657,96145700953900
+
+2020-07-03 13:58:49,763 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:58:53,025 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:58:53,025 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:54231, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54231,96201233435800
+
+2020-07-03 13:58:53,025 INFO send udp packet: 2.0.1.21,54231,96201233435800
+
+2020-07-03 13:58:53,516 INFO received ack: {"type": "push-ack", "lastRefTime":"96201233435800", "data":""} from: 2.0.1.21:54231, cost: 491 ms, unacked: 0, total push: 56
+
+2020-07-03 13:59:34,771 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:59:49,784 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:59:54,303 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 13:59:54,307 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:54231, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54231,96262511966900
+
+2020-07-03 13:59:54,319 INFO send udp packet: 2.0.1.21,54231,96262511966900
+
+2020-07-03 13:59:57,812 INFO received ack: {"type": "push-ack", "lastRefTime":"96262511966900", "data":""} from: 2.0.1.21:54231, cost: 3493 ms, unacked: 0, total push: 57
+
+2020-07-03 14:00:28,254 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:00:28,254 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:54231, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54231,96296462220400
+
+2020-07-03 14:00:28,254 INFO send udp packet: 2.0.1.21,54231,96296462220400
+
+2020-07-03 14:00:38,255 INFO retry to push data, key: 2.0.1.21,54231,96296462220400
+
+2020-07-03 14:00:38,255 INFO send udp packet: 2.0.1.21,54231,96296462220400
+
+2020-07-03 14:00:46,751 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:00:46,751 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:59726, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,59726,96314958849100
+
+2020-07-03 14:00:46,751 INFO send udp packet: 2.0.1.21,59726,96314958849100
+
+2020-07-03 14:00:46,756 INFO received ack: {"type": "push-ack", "lastRefTime":"96314958849100", "data":""} from: 2.0.1.21:59726, cost: 5 ms, unacked: 1, total push: 59
+
+2020-07-03 14:00:48,257 INFO retry to push data, key: 2.0.1.21,54231,96296462220400
+
+2020-07-03 14:00:48,257 WARN max re-push times reached, retry times 2, key: 2.0.1.21,54231,96296462220400
+
+2020-07-03 14:01:35,453 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:01:50,366 WARN client: 2.0.1.21:50231 already associated with key serviceName: DEV_GROUP@@zc-gateway-consumer, clusters: , address: /2.0.1.21:50231, agent: Nacos-Java-Client:v1.2.1
+
+2020-07-03 14:01:53,076 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:01:53,076 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:50231, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,50231,96381284086100
+
+2020-07-03 14:01:53,076 INFO send udp packet: 2.0.1.21,50231,96381284086100
+
+2020-07-03 14:01:53,082 INFO received ack: {"type": "push-ack", "lastRefTime":"96381284086100", "data":""} from: 2.0.1.21:50231, cost: 6 ms, unacked: 0, total push: 60
+
+2020-07-03 14:03:32,849 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:03:32,849 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:50231, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,50231,96481056985900
+
+2020-07-03 14:03:32,849 INFO send udp packet: 2.0.1.21,50231,96481056985900
+
+2020-07-03 14:03:42,850 INFO retry to push data, key: 2.0.1.21,50231,96481056985900
+
+2020-07-03 14:03:42,850 INFO send udp packet: 2.0.1.21,50231,96481056985900
+
+2020-07-03 14:03:52,852 INFO retry to push data, key: 2.0.1.21,50231,96481056985900
+
+2020-07-03 14:03:52,852 WARN max re-push times reached, retry times 2, key: 2.0.1.21,50231,96481056985900
+
+2020-07-03 14:06:41,275 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:06:41,275 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:58782, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,58782,96669482840100
+
+2020-07-03 14:06:41,275 INFO send udp packet: 2.0.1.21,58782,96669482840100
+
+2020-07-03 14:06:41,280 INFO received ack: {"type": "push-ack", "lastRefTime":"96669482840100", "data":""} from: 2.0.1.21:58782, cost: 5 ms, unacked: 0, total push: 62
+
+2020-07-03 14:07:16,282 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:07:31,286 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:08:06,410 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:08:06,410 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:58782, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,58782,96754618569700
+
+2020-07-03 14:08:06,410 INFO send udp packet: 2.0.1.21,58782,96754618569700
+
+2020-07-03 14:08:06,412 INFO received ack: {"type": "push-ack", "lastRefTime":"96754618569700", "data":""} from: 2.0.1.21:58782, cost: 2 ms, unacked: 0, total push: 63
+
+2020-07-03 14:08:08,074 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:08:08,074 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:58782, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,58782,96756281989800
+
+2020-07-03 14:08:08,074 INFO send udp packet: 2.0.1.21,58782,96756281989800
+
+2020-07-03 14:08:18,074 INFO retry to push data, key: 2.0.1.21,58782,96756281989800
+
+2020-07-03 14:08:18,074 INFO send udp packet: 2.0.1.21,58782,96756281989800
+
+2020-07-03 14:08:27,730 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:08:27,733 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:63301, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,63301,96775940481200
+
+2020-07-03 14:08:27,733 INFO send udp packet: 2.0.1.21,63301,96775940481200
+
+2020-07-03 14:08:27,740 INFO received ack: {"type": "push-ack", "lastRefTime":"96775940481200", "data":""} from: 2.0.1.21:63301, cost: 7 ms, unacked: 1, total push: 65
+
+2020-07-03 14:08:28,076 INFO retry to push data, key: 2.0.1.21,58782,96756281989800
+
+2020-07-03 14:08:28,076 WARN max re-push times reached, retry times 2, key: 2.0.1.21,58782,96756281989800
+
+2020-07-03 14:09:46,781 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:10:04,350 INFO DEFAULT_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:10:04,350 INFO serviceName: DEFAULT_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:56738, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,56738,96872558328500
+
+2020-07-03 14:10:04,350 INFO send udp packet: 2.0.1.21,56738,96872558328500
+
+2020-07-03 14:10:04,354 INFO received ack: {"type": "push-ack", "lastRefTime":"96872558328500", "data":""} from: 2.0.1.21:56738, cost: 4 ms, unacked: 0, total push: 66
+
+2020-07-03 14:10:59,359 INFO DEFAULT_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:11:14,365 INFO DEFAULT_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:11:40,930 INFO DEFAULT_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:11:40,930 INFO serviceName: DEFAULT_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:56738, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,56738,96969137876500
+
+2020-07-03 14:11:40,930 INFO send udp packet: 2.0.1.21,56738,96969137876500
+
+2020-07-03 14:11:40,934 INFO received ack: {"type": "push-ack", "lastRefTime":"96969137876500", "data":""} from: 2.0.1.21:56738, cost: 4 ms, unacked: 0, total push: 67
+
+2020-07-03 14:12:17,416 INFO DEFAULT_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:12:17,416 INFO serviceName: DEFAULT_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:56738, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,56738,97005624428700
+
+2020-07-03 14:12:17,416 INFO send udp packet: 2.0.1.21,56738,97005624428700
+
+2020-07-03 14:12:27,417 INFO retry to push data, key: 2.0.1.21,56738,97005624428700
+
+2020-07-03 14:12:27,417 INFO send udp packet: 2.0.1.21,56738,97005624428700
+
+2020-07-03 14:12:36,769 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:12:36,769 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:61943, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,61943,97024977469800
+
+2020-07-03 14:12:36,769 INFO send udp packet: 2.0.1.21,61943,97024977469800
+
+2020-07-03 14:12:36,773 INFO received ack: {"type": "push-ack", "lastRefTime":"97024977469800", "data":""} from: 2.0.1.21:61943, cost: 4 ms, unacked: 1, total push: 69
+
+2020-07-03 14:12:37,422 INFO retry to push data, key: 2.0.1.21,56738,97005624428700
+
+2020-07-03 14:12:37,422 WARN max re-push times reached, retry times 2, key: 2.0.1.21,56738,97005624428700
+
+2020-07-03 14:20:59,210 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:20:59,210 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:61943, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,61943,97527418514100
+
+2020-07-03 14:20:59,210 INFO send udp packet: 2.0.1.21,61943,97527418514100
+
+2020-07-03 14:21:09,212 INFO retry to push data, key: 2.0.1.21,61943,97527418514100
+
+2020-07-03 14:21:09,212 INFO send udp packet: 2.0.1.21,61943,97527418514100
+
+2020-07-03 14:21:19,213 INFO retry to push data, key: 2.0.1.21,61943,97527418514100
+
+2020-07-03 14:21:19,213 WARN max re-push times reached, retry times 2, key: 2.0.1.21,61943,97527418514100
+
+2020-07-03 14:22:23,291 INFO DEFAULT_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:22:23,291 INFO serviceName: DEFAULT_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:55669, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,55669,97611499025900
+
+2020-07-03 14:22:23,291 INFO send udp packet: 2.0.1.21,55669,97611499025900
+
+2020-07-03 14:22:23,297 INFO received ack: {"type": "push-ack", "lastRefTime":"97611499025900", "data":""} from: 2.0.1.21:55669, cost: 6 ms, unacked: 0, total push: 71
+
+2020-07-03 14:23:47,640 INFO DEFAULT_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:23:47,641 INFO serviceName: DEFAULT_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:55669, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,55669,97695848626600
+
+2020-07-03 14:23:47,642 INFO send udp packet: 2.0.1.21,55669,97695848626600
+
+2020-07-03 14:23:57,644 INFO retry to push data, key: 2.0.1.21,55669,97695848626600
+
+2020-07-03 14:23:57,644 INFO send udp packet: 2.0.1.21,55669,97695848626600
+
+2020-07-03 14:24:07,645 INFO retry to push data, key: 2.0.1.21,55669,97695848626600
+
+2020-07-03 14:24:07,645 WARN max re-push times reached, retry times 2, key: 2.0.1.21,55669,97695848626600
+
+2020-07-03 14:25:49,577 INFO DEFAULT_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:25:49,577 INFO serviceName: DEFAULT_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:59573, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,59573,97817785367000
+
+2020-07-03 14:25:49,577 INFO send udp packet: 2.0.1.21,59573,97817785367000
+
+2020-07-03 14:25:49,589 INFO received ack: {"type": "push-ack", "lastRefTime":"97817785367000", "data":""} from: 2.0.1.21:59573, cost: 12 ms, unacked: 0, total push: 73
+
+2020-07-03 14:27:21,652 INFO DEFAULT_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:27:21,652 INFO serviceName: DEFAULT_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:59573, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,59573,97909860399700
+
+2020-07-03 14:27:21,652 INFO send udp packet: 2.0.1.21,59573,97909860399700
+
+2020-07-03 14:27:31,654 INFO retry to push data, key: 2.0.1.21,59573,97909860399700
+
+2020-07-03 14:27:31,654 INFO send udp packet: 2.0.1.21,59573,97909860399700
+
+2020-07-03 14:27:41,563 INFO DEFAULT_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:27:41,564 INFO serviceName: DEFAULT_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:63326, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,63326,97929772002500
+
+2020-07-03 14:27:41,564 INFO send udp packet: 2.0.1.21,63326,97929772002500
+
+2020-07-03 14:27:41,574 INFO received ack: {"type": "push-ack", "lastRefTime":"97929772002500", "data":""} from: 2.0.1.21:63326, cost: 10 ms, unacked: 1, total push: 75
+
+2020-07-03 14:27:41,655 INFO retry to push data, key: 2.0.1.21,59573,97909860399700
+
+2020-07-03 14:27:41,655 WARN max re-push times reached, retry times 2, key: 2.0.1.21,59573,97909860399700
+
+2020-07-03 14:28:40,247 INFO DEFAULT_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:28:40,247 INFO serviceName: DEFAULT_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:63326, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,63326,97988455165900
+
+2020-07-03 14:28:40,247 INFO send udp packet: 2.0.1.21,63326,97988455165900
+
+2020-07-03 14:28:50,247 INFO retry to push data, key: 2.0.1.21,63326,97988455165900
+
+2020-07-03 14:28:50,247 INFO send udp packet: 2.0.1.21,63326,97988455165900
+
+2020-07-03 14:29:00,250 INFO retry to push data, key: 2.0.1.21,63326,97988455165900
+
+2020-07-03 14:29:00,250 WARN max re-push times reached, retry times 2, key: 2.0.1.21,63326,97988455165900
+
+2020-07-03 14:31:18,100 INFO DEFAULT_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:31:18,100 INFO serviceName: DEFAULT_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:63682, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,63682,98146308151000
+
+2020-07-03 14:31:18,100 INFO send udp packet: 2.0.1.21,63682,98146308151000
+
+2020-07-03 14:31:18,106 INFO received ack: {"type": "push-ack", "lastRefTime":"98146308151000", "data":""} from: 2.0.1.21:63682, cost: 6 ms, unacked: 0, total push: 77
+
+2020-07-03 14:32:36,493 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:32:38,182 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:32:53,196 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:33:04,253 INFO DEFAULT_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:33:04,253 INFO serviceName: DEFAULT_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:63682, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,63682,98252461550900
+
+2020-07-03 14:33:04,254 INFO send udp packet: 2.0.1.21,63682,98252461550900
+
+2020-07-03 14:33:14,256 INFO retry to push data, key: 2.0.1.21,63682,98252461550900
+
+2020-07-03 14:33:14,256 INFO send udp packet: 2.0.1.21,63682,98252461550900
+
+2020-07-03 14:33:21,026 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:33:21,026 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:51202, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,51202,98269234807100
+
+2020-07-03 14:33:21,026 INFO send udp packet: 2.0.1.21,51202,98269234807100
+
+2020-07-03 14:33:21,031 INFO received ack: {"type": "push-ack", "lastRefTime":"98269234807100", "data":""} from: 2.0.1.21:51202, cost: 5 ms, unacked: 1, total push: 79
+
+2020-07-03 14:33:24,258 INFO retry to push data, key: 2.0.1.21,63682,98252461550900
+
+2020-07-03 14:33:24,258 WARN max re-push times reached, retry times 2, key: 2.0.1.21,63682,98252461550900
+
+2020-07-03 14:33:46,090 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:33:46,090 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:51202, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,51202,98294298680200
+
+2020-07-03 14:33:46,091 INFO send udp packet: 2.0.1.21,51202,98294298680200
+
+2020-07-03 14:33:56,092 INFO retry to push data, key: 2.0.1.21,51202,98294298680200
+
+2020-07-03 14:33:56,092 INFO send udp packet: 2.0.1.21,51202,98294298680200
+
+2020-07-03 14:34:04,988 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:34:04,988 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:59540, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,59540,98313196384400
+
+2020-07-03 14:34:04,988 INFO send udp packet: 2.0.1.21,59540,98313196384400
+
+2020-07-03 14:34:04,993 INFO received ack: {"type": "push-ack", "lastRefTime":"98313196384400", "data":""} from: 2.0.1.21:59540, cost: 5 ms, unacked: 1, total push: 81
+
+2020-07-03 14:34:06,094 INFO retry to push data, key: 2.0.1.21,51202,98294298680200
+
+2020-07-03 14:34:06,094 WARN max re-push times reached, retry times 2, key: 2.0.1.21,51202,98294298680200
+
+2020-07-03 14:35:02,102 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:35:02,105 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:59540, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,59540,98370312963300
+
+2020-07-03 14:35:02,105 INFO send udp packet: 2.0.1.21,59540,98370312963300
+
+2020-07-03 14:35:12,108 INFO retry to push data, key: 2.0.1.21,59540,98370312963300
+
+2020-07-03 14:35:12,108 INFO send udp packet: 2.0.1.21,59540,98370312963300
+
+2020-07-03 14:35:22,109 INFO retry to push data, key: 2.0.1.21,59540,98370312963300
+
+2020-07-03 14:35:22,109 WARN max re-push times reached, retry times 2, key: 2.0.1.21,59540,98370312963300
+
+2020-07-03 14:36:56,615 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 14:36:56,615 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,98484822673100
+
+2020-07-03 14:36:56,615 INFO send udp packet: 2.0.1.21,54774,98484822673100
+
+2020-07-03 14:36:56,619 INFO received ack: {"type": "push-ack", "lastRefTime":"98484822673100", "data":""} from: 2.0.1.21:54774, cost: 4 ms, unacked: 0, total push: 83
+
+2020-07-03 14:37:23,236 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:37:23,236 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,98511444287600
+
+2020-07-03 14:37:23,236 INFO send udp packet: 2.0.1.21,54774,98511444287600
+
+2020-07-03 14:37:23,238 INFO received ack: {"type": "push-ack", "lastRefTime":"98511444287600", "data":""} from: 2.0.1.21:54774, cost: 2 ms, unacked: 0, total push: 84
+
+2020-07-03 14:37:32,862 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:37:32,862 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,98521070193400
+
+2020-07-03 14:37:32,862 INFO send udp packet: 2.0.1.21,54774,98521070193400
+
+2020-07-03 14:37:32,863 INFO received ack: {"type": "push-ack", "lastRefTime":"98521070193400", "data":""} from: 2.0.1.21:54774, cost: 1 ms, unacked: 0, total push: 85
+
+2020-07-03 14:39:55,267 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:39:55,267 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,98663475133300
+
+2020-07-03 14:39:55,267 INFO send udp packet: 2.0.1.21,54774,98663475133300
+
+2020-07-03 14:39:55,268 INFO received ack: {"type": "push-ack", "lastRefTime":"98663475133300", "data":""} from: 2.0.1.21:54774, cost: 1 ms, unacked: 0, total push: 86
+
+2020-07-03 14:40:33,280 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:40:33,280 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,98701487994000
+
+2020-07-03 14:40:33,280 INFO send udp packet: 2.0.1.21,54774,98701487994000
+
+2020-07-03 14:40:33,281 INFO received ack: {"type": "push-ack", "lastRefTime":"98701487994000", "data":""} from: 2.0.1.21:54774, cost: 1 ms, unacked: 0, total push: 87
+
+2020-07-03 14:40:45,332 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:40:45,332 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,98713539682100
+
+2020-07-03 14:40:45,332 INFO send udp packet: 2.0.1.21,54774,98713539682100
+
+2020-07-03 14:40:45,333 INFO received ack: {"type": "push-ack", "lastRefTime":"98713539682100", "data":""} from: 2.0.1.21:54774, cost: 1 ms, unacked: 0, total push: 88
+
+2020-07-03 14:40:50,365 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:40:50,365 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,98718573312100
+
+2020-07-03 14:40:50,365 INFO send udp packet: 2.0.1.21,54774,98718573312100
+
+2020-07-03 14:40:50,366 INFO received ack: {"type": "push-ack", "lastRefTime":"98718573312100", "data":""} from: 2.0.1.21:54774, cost: 1 ms, unacked: 0, total push: 89
+
+2020-07-03 14:49:21,786 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:49:21,786 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,99229993895300
+
+2020-07-03 14:49:21,786 INFO send udp packet: 2.0.1.21,54774,99229993895300
+
+2020-07-03 14:49:21,788 INFO received ack: {"type": "push-ack", "lastRefTime":"99229993895300", "data":""} from: 2.0.1.21:54774, cost: 2 ms, unacked: 0, total push: 90
+
+2020-07-03 14:49:36,618 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:49:36,618 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,99244825775300
+
+2020-07-03 14:49:36,618 INFO send udp packet: 2.0.1.21,54774,99244825775300
+
+2020-07-03 14:49:36,620 INFO received ack: {"type": "push-ack", "lastRefTime":"99244825775300", "data":""} from: 2.0.1.21:54774, cost: 2 ms, unacked: 0, total push: 91
+
+2020-07-03 14:54:23,432 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:54:23,432 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,99531639992300
+
+2020-07-03 14:54:23,432 INFO send udp packet: 2.0.1.21,54774,99531639992300
+
+2020-07-03 14:54:23,434 INFO received ack: {"type": "push-ack", "lastRefTime":"99531639992300", "data":""} from: 2.0.1.21:54774, cost: 2 ms, unacked: 0, total push: 92
+
+2020-07-03 14:54:25,398 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:54:25,398 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,99533606473800
+
+2020-07-03 14:54:25,398 INFO send udp packet: 2.0.1.21,54774,99533606473800
+
+2020-07-03 14:54:25,400 INFO received ack: {"type": "push-ack", "lastRefTime":"99533606473800", "data":""} from: 2.0.1.21:54774, cost: 2 ms, unacked: 0, total push: 93
+
+2020-07-03 14:55:45,080 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:55:45,080 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,99613288479800
+
+2020-07-03 14:55:45,080 INFO send udp packet: 2.0.1.21,54774,99613288479800
+
+2020-07-03 14:55:45,082 INFO received ack: {"type": "push-ack", "lastRefTime":"99613288479800", "data":""} from: 2.0.1.21:54774, cost: 2 ms, unacked: 0, total push: 94
+
+2020-07-03 14:55:59,376 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:55:59,376 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,99627584620200
+
+2020-07-03 14:55:59,376 INFO send udp packet: 2.0.1.21,54774,99627584620200
+
+2020-07-03 14:55:59,379 INFO received ack: {"type": "push-ack", "lastRefTime":"99627584620200", "data":""} from: 2.0.1.21:54774, cost: 3 ms, unacked: 0, total push: 95
+
+2020-07-03 14:57:26,410 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:57:26,411 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,99714618585200
+
+2020-07-03 14:57:26,411 INFO send udp packet: 2.0.1.21,54774,99714618585200
+
+2020-07-03 14:57:26,412 INFO received ack: {"type": "push-ack", "lastRefTime":"99714618585200", "data":""} from: 2.0.1.21:54774, cost: 1 ms, unacked: 0, total push: 96
+
+2020-07-03 14:57:39,471 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 14:57:39,471 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,99727679428900
+
+2020-07-03 14:57:39,471 INFO send udp packet: 2.0.1.21,54774,99727679428900
+
+2020-07-03 14:57:39,473 INFO received ack: {"type": "push-ack", "lastRefTime":"99727679428900", "data":""} from: 2.0.1.21:54774, cost: 2 ms, unacked: 0, total push: 97
+
+2020-07-03 15:41:07,909 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2020-07-03 15:48:03,027 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2020-07-03 15:48:18,036 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2020-07-03 15:51:12,649 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2020-07-03 15:51:49,191 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 15:51:49,191 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,102977399452700
+
+2020-07-03 15:51:49,191 INFO send udp packet: 2.0.1.21,54774,102977399452700
+
+2020-07-03 15:51:49,193 INFO received ack: {"type": "push-ack", "lastRefTime":"102977399452700", "data":""} from: 2.0.1.21:54774, cost: 2 ms, unacked: 0, total push: 98
+
+2020-07-03 15:52:04,196 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 15:52:04,196 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,102992404114900
+
+2020-07-03 15:52:04,196 INFO send udp packet: 2.0.1.21,54774,102992404114900
+
+2020-07-03 15:52:04,199 INFO received ack: {"type": "push-ack", "lastRefTime":"102992404114900", "data":""} from: 2.0.1.21:54774, cost: 3 ms, unacked: 0, total push: 99
+
+2020-07-03 15:58:53,235 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 15:58:53,235 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:54774, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,54774,103401442927200
+
+2020-07-03 15:58:53,235 INFO send udp packet: 2.0.1.21,54774,103401442927200
+
+2020-07-03 15:59:03,236 INFO retry to push data, key: 2.0.1.21,54774,103401442927200
+
+2020-07-03 15:59:03,236 INFO send udp packet: 2.0.1.21,54774,103401442927200
+
+2020-07-03 15:59:13,238 INFO retry to push data, key: 2.0.1.21,54774,103401442927200
+
+2020-07-03 15:59:13,238 WARN max re-push times reached, retry times 2, key: 2.0.1.21,54774,103401442927200
+
+2020-07-03 16:01:36,980 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 16:01:36,980 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:60365, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,60365,103565188480700
+
+2020-07-03 16:01:36,980 INFO send udp packet: 2.0.1.21,60365,103565188480700
+
+2020-07-03 16:01:36,985 INFO received ack: {"type": "push-ack", "lastRefTime":"103565188480700", "data":""} from: 2.0.1.21:60365, cost: 5 ms, unacked: 0, total push: 101
+
+2020-07-03 16:39:39,243 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 17:07:46,086 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 17:07:46,087 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:60365, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,60365,107534294945000
+
+2020-07-03 17:07:46,087 INFO send udp packet: 2.0.1.21,60365,107534294945000
+
+2020-07-03 17:07:56,090 INFO retry to push data, key: 2.0.1.21,60365,107534294945000
+
+2020-07-03 17:07:56,090 INFO send udp packet: 2.0.1.21,60365,107534294945000
+
+2020-07-03 17:08:06,092 INFO retry to push data, key: 2.0.1.21,60365,107534294945000
+
+2020-07-03 17:08:06,092 WARN max re-push times reached, retry times 2, key: 2.0.1.21,60365,107534294945000
+
+2020-07-03 17:09:11,445 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 17:09:11,446 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:64263, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,64263,107619654220800
+
+2020-07-03 17:09:11,446 INFO send udp packet: 2.0.1.21,64263,107619654220800
+
+2020-07-03 17:09:11,451 INFO received ack: {"type": "push-ack", "lastRefTime":"107619654220800", "data":""} from: 2.0.1.21:64263, cost: 5 ms, unacked: 0, total push: 103
+
+2020-07-03 17:12:18,268 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 17:12:18,268 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:64263, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,64263,107806476353500
+
+2020-07-03 17:12:18,268 INFO send udp packet: 2.0.1.21,64263,107806476353500
+
+2020-07-03 17:12:18,270 INFO received ack: {"type": "push-ack", "lastRefTime":"107806476353500", "data":""} from: 2.0.1.21:64263, cost: 2 ms, unacked: 0, total push: 104
+
+2020-07-03 17:13:30,441 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 17:13:30,441 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:64263, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,64263,107878649178800
+
+2020-07-03 17:13:30,441 INFO send udp packet: 2.0.1.21,64263,107878649178800
+
+2020-07-03 17:13:30,442 INFO received ack: {"type": "push-ack", "lastRefTime":"107878649178800", "data":""} from: 2.0.1.21:64263, cost: 1 ms, unacked: 0, total push: 105
+
+2020-07-03 17:18:05,261 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 17:18:05,262 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:64263, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,64263,108153468681200
+
+2020-07-03 17:18:05,262 INFO send udp packet: 2.0.1.21,64263,108153468681200
+
+2020-07-03 17:18:05,263 INFO received ack: {"type": "push-ack", "lastRefTime":"108153468681200", "data":""} from: 2.0.1.21:64263, cost: 1 ms, unacked: 0, total push: 106
+
+2020-07-03 17:18:06,598 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 17:18:06,598 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:64263, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,64263,108154806095500
+
+2020-07-03 17:18:06,598 INFO send udp packet: 2.0.1.21,64263,108154806095500
+
+2020-07-03 17:18:06,599 INFO received ack: {"type": "push-ack", "lastRefTime":"108154806095500", "data":""} from: 2.0.1.21:64263, cost: 1 ms, unacked: 0, total push: 107
+
+2020-07-03 17:18:11,620 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 17:18:11,620 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:64263, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,64263,108159827793700
+
+2020-07-03 17:18:11,620 INFO send udp packet: 2.0.1.21,64263,108159827793700
+
+2020-07-03 17:18:11,621 INFO received ack: {"type": "push-ack", "lastRefTime":"108159827793700", "data":""} from: 2.0.1.21:64263, cost: 1 ms, unacked: 0, total push: 108
+
+2020-07-03 17:26:45,379 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 17:26:45,379 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:64263, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,64263,108673587377900
+
+2020-07-03 17:26:45,379 INFO send udp packet: 2.0.1.21,64263,108673587377900
+
+2020-07-03 17:26:45,380 INFO received ack: {"type": "push-ack", "lastRefTime":"108673587377900", "data":""} from: 2.0.1.21:64263, cost: 1 ms, unacked: 0, total push: 109
+
+2020-07-03 17:26:46,409 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 17:26:46,409 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:64263, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,64263,108674617774800
+
+2020-07-03 17:26:46,409 INFO send udp packet: 2.0.1.21,64263,108674617774800
+
+2020-07-03 17:26:46,410 INFO received ack: {"type": "push-ack", "lastRefTime":"108674617774800", "data":""} from: 2.0.1.21:64263, cost: 1 ms, unacked: 0, total push: 110
+
+2020-07-03 17:26:51,439 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 17:26:51,439 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:64263, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,64263,108679647345600
+
+2020-07-03 17:26:51,439 INFO send udp packet: 2.0.1.21,64263,108679647345600
+
+2020-07-03 17:26:51,440 INFO received ack: {"type": "push-ack", "lastRefTime":"108679647345600", "data":""} from: 2.0.1.21:64263, cost: 1 ms, unacked: 0, total push: 111
+
+2020-07-03 17:30:11,764 INFO DEFAULT_GROUP@@zc-core-provider is changed, add it to push queue.
+
+2020-07-03 17:30:36,926 INFO DEFAULT_GROUP@@zc-core-provider is changed, add it to push queue.
+
+2020-07-03 17:30:46,934 INFO DEFAULT_GROUP@@zc-core-provider is changed, add it to push queue.
+
+2020-07-03 17:31:59,564 INFO DEFAULT_GROUP@@zc-core-provider is changed, add it to push queue.
+
+2020-07-03 17:41:42,080 INFO DEFAULT_GROUP@@zc-core-provider is changed, add it to push queue.
+
+2020-07-03 17:41:42,395 INFO DEV_GROUP@@zc-core-provider is changed, add it to push queue.
+
+2020-07-03 17:41:57,091 INFO DEFAULT_GROUP@@zc-core-provider is changed, add it to push queue.
+
+2020-07-03 17:48:07,722 INFO DEV_GROUP@@zc-core-provider is changed, add it to push queue.
+
+2020-07-03 17:48:07,722 INFO serviceName: DEV_GROUP@@zc-core-provider changed, schedule push for: 2.0.1.21:64263, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,64263,109955930547600
+
+2020-07-03 17:48:07,722 INFO send udp packet: 2.0.1.21,64263,109955930547600
+
+2020-07-03 17:48:07,723 INFO received ack: {"type": "push-ack", "lastRefTime":"109955930547600", "data":""} from: 2.0.1.21:64263, cost: 1 ms, unacked: 0, total push: 112
+
+2020-07-03 17:48:11,141 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 17:48:11,141 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:64263, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,64263,109959349392900
+
+2020-07-03 17:48:11,141 INFO send udp packet: 2.0.1.21,64263,109959349392900
+
+2020-07-03 17:48:11,142 INFO received ack: {"type": "push-ack", "lastRefTime":"109959349392900", "data":""} from: 2.0.1.21:64263, cost: 1 ms, unacked: 0, total push: 113
+
+2020-07-03 17:48:22,726 INFO DEV_GROUP@@zc-core-provider is changed, add it to push queue.
+
+2020-07-03 17:48:22,726 INFO serviceName: DEV_GROUP@@zc-core-provider changed, schedule push for: 2.0.1.21:64263, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,64263,109970933888000
+
+2020-07-03 17:48:22,726 INFO send udp packet: 2.0.1.21,64263,109970933888000
+
+2020-07-03 17:48:22,728 INFO received ack: {"type": "push-ack", "lastRefTime":"109970933888000", "data":""} from: 2.0.1.21:64263, cost: 2 ms, unacked: 0, total push: 114
+
+2020-07-03 17:48:26,147 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 17:48:26,147 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 2.0.1.21:64263, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,64263,109974354837000
+
+2020-07-03 17:48:26,147 INFO send udp packet: 2.0.1.21,64263,109974354837000
+
+2020-07-03 17:48:26,149 INFO received ack: {"type": "push-ack", "lastRefTime":"109974354837000", "data":""} from: 2.0.1.21:64263, cost: 2 ms, unacked: 0, total push: 115
+
+2020-07-03 17:48:49,966 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 17:49:04,970 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 17:49:16,072 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 17:49:16,073 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:59390, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,59390,110024281552200
+
+2020-07-03 17:49:16,073 INFO send udp packet: 2.0.1.21,59390,110024281552200
+
+2020-07-03 17:49:16,083 INFO received ack: {"type": "push-ack", "lastRefTime":"110024281552200", "data":""} from: 2.0.1.21:59390, cost: 10 ms, unacked: 0, total push: 116
+
+2020-07-03 17:49:52,160 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 17:49:52,160 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 2.0.1.21:59390, agent: Nacos-Java-Client:v1.2.1, key: 2.0.1.21,59390,110060367790700
+
+2020-07-03 17:49:52,160 INFO send udp packet: 2.0.1.21,59390,110060367790700
+
+2020-07-03 17:50:02,161 INFO retry to push data, key: 2.0.1.21,59390,110060367790700
+
+2020-07-03 17:50:02,161 INFO send udp packet: 2.0.1.21,59390,110060367790700
+
+2020-07-03 17:50:12,163 INFO retry to push data, key: 2.0.1.21,59390,110060367790700
+
+2020-07-03 17:50:12,163 WARN max re-push times reached, retry times 2, key: 2.0.1.21,59390,110060367790700
+
+2020-07-03 17:59:46,870 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2020-07-03 18:01:26,381 INFO DEV_GROUP@@zc-core-provider is changed, add it to push queue.
+
+2020-07-03 18:01:45,902 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 18:01:45,921 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:64881, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,64881,439827392400
+
+2020-07-03 18:01:45,921 INFO send udp packet: 169.254.254.171,64881,439827392400
+
+2020-07-03 18:01:46,010 INFO received ack: {"type": "push-ack", "lastRefTime":"439827392400", "data":""} from: 169.254.254.171:64881, cost: 89 ms, unacked: 0, total push: 1
+
+2020-07-03 18:01:46,446 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 18:15:02,809 INFO DEV_GROUP@@zc-core-provider is changed, add it to push queue.
+
+2020-07-03 18:15:02,810 INFO serviceName: DEV_GROUP@@zc-core-provider changed, schedule push for: 169.254.254.171:64881, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,64881,1236733156800
+
+2020-07-03 18:15:02,811 INFO send udp packet: 169.254.254.171,64881,1236733156800
+
+2020-07-03 18:15:02,819 INFO received ack: {"type": "push-ack", "lastRefTime":"1236733156800", "data":""} from: 169.254.254.171:64881, cost: 8 ms, unacked: 0, total push: 2
+
+2020-07-03 18:15:04,413 INFO DEV_GROUP@@zc-gateway-consumer is changed, add it to push queue.
+
+2020-07-03 18:15:04,413 INFO serviceName: DEV_GROUP@@zc-gateway-consumer changed, schedule push for: 169.254.254.171:64881, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,64881,1238336555900
+
+2020-07-03 18:15:04,413 INFO send udp packet: 169.254.254.171,64881,1238336555900
+
+2020-07-03 18:15:04,416 INFO received ack: {"type": "push-ack", "lastRefTime":"1238336555900", "data":""} from: 169.254.254.171:64881, cost: 3 ms, unacked: 0, total push: 3
+
+2020-07-03 18:15:09,226 INFO DEV_GROUP@@zc-login-provider is changed, add it to push queue.
+
+2020-07-03 18:15:09,226 INFO serviceName: DEV_GROUP@@zc-login-provider changed, schedule push for: 169.254.254.171:64881, agent: Nacos-Java-Client:v1.2.1, key: 169.254.254.171,64881,1243149456500
+
+2020-07-03 18:15:09,226 INFO send udp packet: 169.254.254.171,64881,1243149456500
+

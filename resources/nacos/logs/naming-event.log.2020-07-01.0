@@ -1,0 +1,28 @@
+2020-07-01 10:30:57,610 INFO {POS} {IP-DISABLED} valid: 2.0.1.61:8081@DEFAULT@DEFAULT_GROUP@@zc-core-provider, region: unknown, msg: client timeout after 15000, last beat: 1593570638701
+
+2020-07-01 10:30:59,187 INFO {POS} {IP-DISABLED} valid: 2.0.1.61:8080@DEFAULT@DEFAULT_GROUP@@zc-gateway-consumer, region: unknown, msg: client timeout after 15000, last beat: 1593570642123
+
+2020-07-01 10:31:13,213 INFO DEFAULT_GROUP@@zc-core-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [2.0.1.61:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-07-01 10:31:13,213 INFO [IP-UPDATED] namespace: 001d4d62-9fbd-4cef-832a-c21777a2572f, service: DEFAULT_GROUP@@zc-core-provider, ips: 
+
+2020-07-01 10:31:14,252 INFO DEFAULT_GROUP@@zc-gateway-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [2.0.1.61:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-07-01 10:31:14,252 INFO [IP-UPDATED] namespace: 001d4d62-9fbd-4cef-832a-c21777a2572f, service: DEFAULT_GROUP@@zc-gateway-consumer, ips: 
+
+2020-07-01 10:52:16,876 INFO DEFAULT_GROUP@@zc-core-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [2.0.1.61:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-01 10:52:16,876 INFO [IP-UPDATED] namespace: 001d4d62-9fbd-4cef-832a-c21777a2572f, service: DEFAULT_GROUP@@zc-core-provider, ips: 2.0.1.61:8081_true,
+
+2020-07-01 10:52:18,535 INFO DEFAULT_GROUP@@zc-gateway-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [2.0.1.61:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-01 10:52:18,535 INFO [IP-UPDATED] namespace: 001d4d62-9fbd-4cef-832a-c21777a2572f, service: DEFAULT_GROUP@@zc-gateway-consumer, ips: 2.0.1.61:8080_true,
+
+2020-07-01 11:25:30,618 INFO DEFAULT_GROUP@@zc-gateway-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [2.0.1.61:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-01 11:25:30,618 INFO [IP-UPDATED] namespace: 001d4d62-9fbd-4cef-832a-c21777a2572f, service: DEFAULT_GROUP@@zc-gateway-consumer, ips: 
+
+2020-07-01 11:25:31,099 INFO DEFAULT_GROUP@@zc-core-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [2.0.1.61:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-01 11:25:31,099 INFO [IP-UPDATED] namespace: 001d4d62-9fbd-4cef-832a-c21777a2572f, service: DEFAULT_GROUP@@zc-core-provider, ips: 
+

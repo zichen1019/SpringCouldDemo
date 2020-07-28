@@ -1,0 +1,1 @@
+seata-server.bat -p 8091 -m file
