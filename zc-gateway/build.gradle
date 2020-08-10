@@ -9,6 +9,10 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 repositories {
+    maven {
+        url 'https://maven.aliyun.com/repository/public/'
+    }
+    mavenLocal()
     mavenCentral()
 }
 
@@ -24,9 +28,6 @@ dependencies {
     implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2.2.1.RELEASE'
     // 注册中心
     implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2.2.1.RELEASE'
-    // redis限流
-    implementation 'org.springframework.boot:spring-boot-starter-data-redis-reactive'
-    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
     // Hutool 工具包
     implementation 'cn.hutool:hutool-all:4.5.12'
     // Lombok
@@ -34,8 +35,6 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     // Fastjson
     implementation 'com.alibaba:fastjson:1.2.58'
-
-    implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
     // 自己的通用包
     compile project(':zc-common')
