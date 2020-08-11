@@ -15,7 +15,7 @@ spring:
   cloud:
     alibaba:
       seata:
-        tx-service-group: zc-core-provider-group
+        tx-service-group: zc-group
 
     nacos:
       # 注册中心
