@@ -1,6 +1,0 @@
-2020-07-02 13:43:01,674 INFO [dump-all-ok] zc-core-provider-dev.yml+DEV_GROUP, 1593510266247, length=22, md5=95d47b206b670a8f68b78dabe850f9eb
-
-2020-07-02 13:43:01,677 INFO [dump-all-ok] zc-gateway-consumer-dev.yml+DEV_GROUP, 1593510083172, length=21, md5=5cfc6853af5fdf7d63d6c32a9515d905
-
-2020-07-02 13:43:01,680 INFO [dump-all-ok] zc-login-provider-dev.yml+DEV_GROUP, 1593653075968, length=20, md5=fe2baa691022566b2dd898d4d18a6c99
-
