@@ -16,14 +16,16 @@
 
 技术名称|版本|相关介绍
 ---|---|---
-nacos | 1.3.1-BETA | [nacos 文档](https://nacos.io/zh-cn/docs/quick-start-spring-cloud.html)
-seata | 0.8.0 | [seata 文档](https://seata.io/zh-cn/docs/overview/what-is-seata.html)
+nacos | 1.3.2 | [nacos 文档](https://nacos.io/zh-cn/docs/quick-start-spring-cloud.html)
+seata | 1.3.0 | [seata 文档](https://seata.io/zh-cn/docs/overview/what-is-seata.html)
 
 ### nacos
 
 #### [配置方式](https://github.com/alibaba/spring-cloud-alibaba/wiki/Nacos-config)
 
 #### nacos-server
+
+> 默认登录用户及密码为：nacos
 
 ### seata
 
@@ -33,7 +35,9 @@ seata | 0.8.0 | [seata 文档](https://seata.io/zh-cn/docs/overview/what-is-seat
 
 #### [配置文档](https://github.com/seata/seata-samples/tree/master/springcloud-nacos-seata)
 
-> 默认登录用户及密码为：nacos
+> ps. 在将config.txt中的内容加载到nacos中时，如果使用的是db模式，并且mysql版本为8时，需要单独配置下时区，使用nacos-config.sh 加载时 丢失部分参数配置“&serverTimezone=Asia/Shanghai”
+> store.db.url=jdbc:mysql://122.51.198.52:3306/seata?useSSL=FALSE&serverTimezone=Asia/Shanghai
+
 
 ## 知识点
 
