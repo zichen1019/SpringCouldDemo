@@ -1,0 +1,3 @@
+field:
+    value: 10
+whitelist: /zc-login-provider/user/login,/config/get,/zc-core-provider/role/insert
