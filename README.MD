@@ -1,6 +1,6 @@
 # 分布式Demo
 
-## [流程图](https://github.com/zhoutaoo/SpringCloud/raw/master/docs/auth.png)
+## 别人家的流程图 ~ hh
 
 ![](https://github.com/zhoutaoo/SpringCloud/raw/master/docs/auth.png)
 
@@ -26,6 +26,8 @@ seata | 0.8.0 | [seata 文档](https://seata.io/zh-cn/docs/overview/what-is-seat
 #### nacos-server
 
 ### seata
+
+#### [使用教程](https://seata.io/zh-cn/docs/ops/deploy-guide-beginner.html)
 
 #### [快速开始](https://seata.io/zh-cn/docs/user/quickstart.html)
 
