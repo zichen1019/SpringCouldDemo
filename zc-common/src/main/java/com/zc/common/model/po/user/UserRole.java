@@ -20,7 +20,7 @@ import javax.persistence.Table;
 @Builder
 @Data
 @Table(name = "sys_user_role")
-public class Role implements Model {
+public class UserRole implements Model {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
