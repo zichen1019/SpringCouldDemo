@@ -3,7 +3,6 @@ package com.zc.login;
 import io.seata.spring.annotation.datasource.EnableAutoDataSourceProxy;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import tk.mybatis.spring.annotation.MapperScan;
@@ -16,10 +15,10 @@ import tk.mybatis.spring.annotation.MapperScan;
 @EnableAutoDataSourceProxy
 @SpringBootApplication
 @MapperScan(basePackages = "com.zc.login.mapper")
-public class ZcLoginApplication {
+public class LoginApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ZcLoginApplication.class, args);
+        SpringApplication.run(LoginApplication.class, args);
     }
 
 }
