@@ -4,14 +4,9 @@ import cn.hutool.core.util.StrUtil;
 import com.zc.common.config.redis.RedisHelper;
 import com.zc.common.model.po.user.User;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
-import org.springframework.cloud.gateway.discovery.DiscoveryClientRouteDefinitionLocator;
-import org.springframework.cloud.gateway.discovery.DiscoveryLocatorProperties;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
-import org.springframework.cloud.gateway.route.RouteDefinitionLocator;
-import org.springframework.context.annotation.Bean;
 import org.springframework.core.Ordered;
 import org.springframework.core.io.buffer.DataBuffer;
 import org.springframework.http.HttpHeaders;
@@ -56,7 +51,6 @@ public class AuthFilter implements GlobalFilter, Ordered {
         String authorization = exchange.getRequest().getHeaders().getFirst(HttpHeaders.AUTHORIZATION);
 
         // 从缓存中读取认证信息
-        assert authorization != null;
         if (RedisHelper.exists(authorization)) {
                 /*BaseVO<User> result = JwtUtil.validationToken(authorization);
                 // 认证通过

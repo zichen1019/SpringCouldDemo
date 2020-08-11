@@ -1,5 +1,6 @@
 package com.zc.common.config.redis;
 
+import cn.hutool.core.util.StrUtil;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import redis.clients.jedis.Jedis;
@@ -39,6 +40,9 @@ public class RedisHelper {
      * 获取缓存信息
      */
     public static Object get(String key) {
+        if (StrUtil.isEmpty(key)) {
+            return null;
+        }
         Jedis jedis = new Jedis(redisHelper.host);
         if (!jedis.exists(key.getBytes())) {
             return null;
@@ -54,6 +58,9 @@ public class RedisHelper {
      * @return 是否存在
      */
     public static Boolean exists(String key) {
+        if (StrUtil.isEmpty(key)) {
+            return false;
+        }
         Jedis jedis = new Jedis(redisHelper.host);
         return jedis.exists(key.getBytes());
     }
