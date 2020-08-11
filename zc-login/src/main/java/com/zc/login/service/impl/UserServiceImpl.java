@@ -47,10 +47,9 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    @GlobalTransactional
     @Transactional(rollbackFor = Exception.class)
     public int insert() {
-        return userMapper.insertSelective(User.builder().userName("test2").build());
+        return userMapper.insertSelective(User.builder().userName("test211").build());
     }
 
 }
