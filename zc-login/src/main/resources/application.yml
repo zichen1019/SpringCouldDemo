@@ -1,9 +1,9 @@
 spring:
   # 数据源配置
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/spring_cloud_demo?useSSL=FALSE&serverTimezone=Asia/Shanghai
-    username: root
-    password: root
+    url: jdbc:mysql://122.51.198.52:3306/spring_cloud_demo?useSSL=FALSE&serverTimezone=Asia/Shanghai
+    username: test
+    password: test
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 
