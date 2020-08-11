@@ -1,0 +1,6 @@
+2020-08-10 23:18:09,041 WARN isQuickStart:false
+
+2020-08-10 23:20:09,889 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=Asia/Shanghai
+
+2020-08-10 23:20:11,566 WARN isQuickStart:false
+

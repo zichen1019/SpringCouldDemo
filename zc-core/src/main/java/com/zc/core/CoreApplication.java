@@ -1,5 +1,6 @@
 package com.zc.core;
 
+import io.seata.spring.annotation.datasource.EnableAutoDataSourceProxy;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
@@ -12,7 +13,8 @@ import tk.mybatis.spring.annotation.MapperScan;
  */
 @EnableFeignClients
 @EnableDiscoveryClient
-@SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
+@EnableAutoDataSourceProxy
+@SpringBootApplication
 @MapperScan(basePackages = "com.zc.core.mapper")
 public class CoreApplication {
 

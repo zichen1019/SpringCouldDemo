@@ -9,12 +9,15 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 repositories {
+    maven {
+        url 'https://maven.aliyun.com/repository/public/'
+    }
+    mavenLocal()
     mavenCentral()
 }
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-redis'
-    implementation 'org.springframework.boot:spring-boot-starter-web'
 
     // 数据库相关
     implementation 'mysql:mysql-connector-java'
@@ -33,8 +36,6 @@ dependencies {
     // 配置中心
     implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2.2.1.RELEASE'
 
-    implementation 'com.alibaba.nacos:nacos-client:1.3.0'
-
     // Lombok
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
@@ -42,9 +43,11 @@ dependencies {
     // Hutool 工具包
     implementation 'cn.hutool:hutool-all:4.5.12'
 
-    // seata分布式事务
-    implementation 'com.alibaba.cloud:spring-cloud-alibaba-seata:2.1.0.RELEASE'
-    implementation 'io.seata:seata-all:1.2.0'
+    // seata分布式事务 seata-server 1.3.0版本
+    implementation('com.alibaba.cloud:spring-cloud-starter-alibaba-seata:2.2.1.RELEASE') {
+        exclude group: 'io.seata', module: 'seata-spring-boot-starter'
+    }
+    implementation 'io.seata:seata-spring-boot-starter:1.3.0'
 
     // FeignClient
     implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:2.2.3.RELEASE'
