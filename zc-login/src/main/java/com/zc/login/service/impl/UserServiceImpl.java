@@ -14,6 +14,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Random;
+
 /**
  * @author zichen
  */
@@ -47,9 +49,10 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    @GlobalTransactional
     @Transactional(rollbackFor = Exception.class)
     public int insert() {
-        return userMapper.insertSelective(User.builder().userName("test211").build());
+        return userMapper.insertSelective(User.builder().userName("test-" + new Random().nextInt()).build());
     }
 
 }

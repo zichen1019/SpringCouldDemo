@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
+import java.util.Random;
 
 /**
  * @author zichen
@@ -24,16 +25,17 @@ public class RoleServiceImpl implements RoleService {
 
     /**
      * 认证用户信息
+     * 本地测试调用地址：http://127.0.0.1:8080/zc-core-provider/role/insert
      * @return
      */
     @Override
     @GlobalTransactional
     @Transactional(rollbackFor = Exception.class)
     public String insert() {
-        userRoleMapper.insertSelective(UserRole.builder().userId(1).roleId(1).build());
+        userRoleMapper.insertSelective(UserRole.builder().userId(new Random().nextInt()).roleId(new Random().nextInt()).build());
         loginFeignClient.insert();
         Integer.parseInt("456我是");
-        return null;
+        return "success";
     }
 
 }
