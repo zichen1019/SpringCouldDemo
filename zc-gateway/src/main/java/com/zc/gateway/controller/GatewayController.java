@@ -1,11 +1,9 @@
 package com.zc.gateway.controller;
 
+import com.zc.common.config.redis.RedisHelper;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 /**
@@ -28,14 +26,21 @@ public class GatewayController {
     /**
      * http://localhost:8080/config/get
      */
-    @RequestMapping("/get")
+    @GetMapping
     public boolean get() {
         return useLocalCache;
     }
 
-    @RequestMapping(value = "/echo/{str}", method = RequestMethod.GET)
-    public String echo(@PathVariable String str) {
-        return restTemplate.getForObject("http://zc-login-provider/user/login/" + str, String.class);
+    @RequestMapping(value = "/redis/echo/{key}", method = RequestMethod.GET)
+    public String echo(@PathVariable String key) {
+        // restTemplate.getForObject("http://zc-login-provider/user/login/" + str, String.class);
+        return (String) RedisHelper.get(key);
+    }
+
+    @RequestMapping(value = "/redis/add/{key}/{value}", method = RequestMethod.GET)
+    public boolean echo(@PathVariable String key, @PathVariable String value) {
+        RedisHelper.add(key, value);
+        return RedisHelper.exists(key);
     }
 
 }

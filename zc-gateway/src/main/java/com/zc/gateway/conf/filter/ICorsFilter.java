@@ -1,4 +1,4 @@
-package com.zc.gateway.filter;
+package com.zc.gateway.conf.filter;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

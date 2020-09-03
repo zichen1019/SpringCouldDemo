@@ -1,4 +1,4 @@
-package com.zc.common.model.dto;
+package com.zc.common.model.dto.user;
 
 import lombok.Data;
 

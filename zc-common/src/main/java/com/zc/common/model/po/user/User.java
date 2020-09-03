@@ -33,4 +33,9 @@ public class User extends BasePO {
      */
     private String nickName;
 
+    /**
+     * 公钥
+     */
+    private String publicKey;
+
 }

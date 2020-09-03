@@ -37,7 +37,9 @@ dependencies {
     implementation 'com.alibaba:fastjson:1.2.58'
 
     // 自己的通用包
-    compile project(':zc-common')
+    compile (project(':zc-common')) {
+        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-web'
+    }
 
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'

@@ -1,4 +1,4 @@
-package com.zc.gateway.config.redis;
+package com.zc.gateway.conf;
 
 import com.zc.common.config.redis.RedisHelper;
 import org.springframework.context.annotation.Bean;
@@ -6,10 +6,9 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @author zichen
- * 子项目中的静态类需要在当前项目中进行注册，才能正常使用
  */
 @Configuration
-public class RedisConfig {
+public class Config {
 
     @Bean
     public RedisHelper redisHelper() {

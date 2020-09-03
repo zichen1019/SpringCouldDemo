@@ -14,8 +14,7 @@ import java.time.LocalDate;
 /**
  * 基础PO类
  *
- * @author zhoujl
- * @since 2019-04-30
+ * @author zichen
  */
 @Data
 public abstract class BasePO implements Model {

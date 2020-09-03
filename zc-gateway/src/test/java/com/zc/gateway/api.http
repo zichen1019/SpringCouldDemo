@@ -1,0 +1,9 @@
+### 登录并获取token
+GET http://192.168.1.130:8080/zc-login-provider/user/login?userName=admin&password=1
+Accept: application/json
+
+> {% client.global.set("Authorization", response.body.data); %}
+
+### 获取用户信息
+GET http://192.168.1.130:8080/zc-login-provider/user?userName=admin
+Authorization: {{Authorization}}

@@ -1,4 +1,4 @@
-package com.zc.gateway.config;
+package com.zc.gateway.conf;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

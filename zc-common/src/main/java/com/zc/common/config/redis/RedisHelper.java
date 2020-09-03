@@ -1,6 +1,8 @@
 package com.zc.common.config.redis;
 
 import cn.hutool.core.util.StrUtil;
+import com.zc.common.config.enums.ResultCode;
+import com.zc.common.exception.BusinessException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import redis.clients.jedis.Jedis;
@@ -11,8 +13,7 @@ import java.io.*;
 /**
  * redis 序列化辅助类
  *
- * @author zhoujl
- * @date 2019-04-30
+ * @author zichen
  */
 @Component
 public class RedisHelper {
@@ -33,7 +34,34 @@ public class RedisHelper {
      */
     public static void add(String key, Object value) {
         Jedis jedis = new Jedis(redisHelper.host);
-        jedis.set(key.getBytes(), ObjectTranscoder.serialize(value));
+        try {
+            jedis.set(key.getBytes(), ObjectTranscoder.serialize(value));
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new BusinessException(ResultCode.INTERFACE_INNER_INVOKE_ERROR);
+        }
+    }
+
+    /**
+     * 添加缓存信息
+     */
+    public static void add(String key, Object value, Integer expire) {
+        Jedis jedis = new Jedis(redisHelper.host);
+        try {
+            jedis.set(key.getBytes(), ObjectTranscoder.serialize(value));
+            jedis.expire(key.getBytes(), expire);
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new BusinessException(ResultCode.INTERFACE_INNER_INVOKE_ERROR);
+        }
+    }
+
+    /**
+     * 更新指定key的失效时间
+     */
+    public static void updateExpire(String key, Integer expire) {
+        Jedis jedis = new Jedis(redisHelper.host);
+        jedis.expire(key.getBytes(), expire);
     }
 
     /**
@@ -101,10 +129,12 @@ public class RedisHelper {
                 throw new IllegalArgumentException("该对象不可序列化", e);
             } finally {
                 try {
-                    if (os != null)
+                    if (os != null) {
                         os.close();
-                    if (bos != null)
+                    }
+                    if (bos != null) {
                         bos.close();
+                    }
                 } catch (Exception e2) {
                     e2.printStackTrace();
                 }

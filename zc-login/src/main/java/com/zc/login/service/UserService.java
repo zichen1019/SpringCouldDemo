@@ -1,6 +1,9 @@
 package com.zc.login.service;
 
-import com.zc.common.model.dto.UserDTO;
+
+import com.zc.common.model.dto.user.AddUserDTO;
+import com.zc.common.model.dto.user.UserDTO;
+import com.zc.common.model.vo.user.UserVO;
 
 /**
  * @author zichen
@@ -14,5 +17,7 @@ public interface UserService {
      */
     String login(UserDTO userDTO);
 
-    int insert();
+    int insert(AddUserDTO addUserDTO);
+
+    UserVO get(UserDTO userDTO);
 }

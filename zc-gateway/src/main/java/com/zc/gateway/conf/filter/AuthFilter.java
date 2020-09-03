@@ -1,5 +1,6 @@
-package com.zc.gateway.filter;
+package com.zc.gateway.conf.filter;
 
+import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
 import com.zc.common.config.redis.RedisHelper;
 import com.zc.common.model.po.user.User;
@@ -22,8 +23,7 @@ import java.util.Set;
 
 /**
  * 身份认证过滤器
- * @author: zealon
- * @since: 2020/4/12
+ * @author: zichen
  */
 @RefreshScope
 @Component
@@ -40,10 +40,7 @@ public class AuthFilter implements GlobalFilter, Ordered {
         String path = exchange.getRequest().getPath().toString();
 
         // 白名单接口、开放接口放行
-        if (whiteList.stream().anyMatch(white -> {
-            white = white.replace("**", "/config/.+").replace("*", "/config/[^/]+");
-            return path.matches(white);
-        })) {
+        if (whiteList.stream().anyMatch(white -> path.matches(white.replace("*", ".+")))) {
             return chain.filter(exchange);
         }
 
@@ -51,12 +48,8 @@ public class AuthFilter implements GlobalFilter, Ordered {
         String authorization = exchange.getRequest().getHeaders().getFirst(HttpHeaders.AUTHORIZATION);
 
         // 从缓存中读取认证信息
-        if (RedisHelper.exists(authorization)) {
-                /*BaseVO<User> result = JwtUtil.validationToken(authorization);
-                // 认证通过
-                User user = result.getData();*/
-            User user = (User) RedisHelper.get(authorization);
-            assert user != null;
+        User user = (User) RedisHelper.get(authorization);
+        if (ObjectUtil.isNotNull(user)) {
             ServerHttpRequest serverHttpRequest = exchange.getRequest()
                     .mutate()
                     // 追加请求头用户信息
