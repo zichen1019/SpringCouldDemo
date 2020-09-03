@@ -1,3 +1,11 @@
+server:
+  servlet:
+    session:
+      # 配置cookie相关信息
+      cookie:
+        # 将JSESSIONID修改为Authorization
+        name: Authorization
+
 spring:
   # 数据源配置
   datasource:
