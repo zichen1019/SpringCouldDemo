@@ -1,6 +1,6 @@
 package com.zc.gateway.conf;
 
-import com.zc.common.config.redis.RedisHelper;
+import com.zc.common.utils.redis.RedisHelper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

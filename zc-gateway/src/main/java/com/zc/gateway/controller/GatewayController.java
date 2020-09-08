@@ -1,6 +1,6 @@
 package com.zc.gateway.controller;
 
-import com.zc.common.config.redis.RedisHelper;
+import com.zc.common.utils.redis.RedisHelper;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
@@ -34,7 +34,7 @@ public class GatewayController {
     @RequestMapping(value = "/redis/echo/{key}", method = RequestMethod.GET)
     public String echo(@PathVariable String key) {
         // restTemplate.getForObject("http://zc-login-provider/user/login/" + str, String.class);
-        return (String) RedisHelper.get(key);
+        return RedisHelper.get(key, String.class);
     }
 
     @RequestMapping(value = "/redis/add/{key}/{value}", method = RequestMethod.GET)

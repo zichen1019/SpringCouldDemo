@@ -2,8 +2,8 @@ package com.zc.gateway.conf.filter;
 
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
-import com.zc.common.config.redis.RedisHelper;
 import com.zc.common.model.po.user.User;
+import com.zc.common.utils.redis.RedisHelper;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
@@ -48,7 +48,7 @@ public class AuthFilter implements GlobalFilter, Ordered {
         String authorization = exchange.getRequest().getHeaders().getFirst(HttpHeaders.AUTHORIZATION);
 
         // 从缓存中读取认证信息
-        User user = (User) RedisHelper.get(authorization);
+        User user = RedisHelper.getJSONSerializer(HttpHeaders.AUTHORIZATION + ":" + authorization, User.class);
         if (ObjectUtil.isNotNull(user)) {
             ServerHttpRequest serverHttpRequest = exchange.getRequest()
                     .mutate()
