@@ -1,11 +1,11 @@
 package com.zc.login.controller;
 
-import com.zc.common.config.redis.RedisHelper;
 import com.zc.common.config.request.RequestContextUtil;
 import com.zc.common.config.result.ResponseResult;
 import com.zc.common.model.dto.user.AddUserDTO;
 import com.zc.common.model.dto.user.UserDTO;
 import com.zc.common.model.vo.user.UserVO;
+import com.zc.common.utils.redis.RedisHelper;
 import com.zc.login.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -31,6 +31,11 @@ public class UserController {
         return userService.login(userDTO);
     }
 
+    @GetMapping("/logout")
+    public void logout() {
+        userService.logout();
+    }
+
     @GetMapping
     public UserVO get(UserDTO userDTO) {
         return userService.get(userDTO);
@@ -48,7 +53,7 @@ public class UserController {
 
     @RequestMapping(value = "/redis/echo/{key}", method = RequestMethod.GET)
     public String echo(@PathVariable String key) {
-        return (String) RedisHelper.get(key);
+        return RedisHelper.get(key, String.class);
     }
 
     @RequestMapping(value = "/redis/add/{key}/{value}", method = RequestMethod.GET)

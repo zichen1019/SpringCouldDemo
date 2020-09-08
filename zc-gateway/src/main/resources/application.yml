@@ -2,6 +2,7 @@ spring:
   redis:
     host: ${config.ip}
     port: 6379
+    password: test
     jedis:
       pool:
         max-idle: 8

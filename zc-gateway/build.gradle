@@ -35,6 +35,9 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     // Fastjson
     implementation 'com.alibaba:fastjson:1.2.58'
+    // redis
+    implementation 'redis.clients:jedis:3.3.0'
+    implementation 'org.apache.commons:commons-pool2:2.8.1'
 
     // 自己的通用包
     compile (project(':zc-common')) {

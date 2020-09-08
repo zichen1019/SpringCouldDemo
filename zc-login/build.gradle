@@ -18,6 +18,10 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    // redis
+    implementation 'org.springframework.session:spring-session-data-redis'
+    implementation 'redis.clients:jedis:3.3.0'
+    implementation 'org.apache.commons:commons-pool2:2.8.1'
 
     // 数据库相关
     implementation 'mysql:mysql-connector-java'
@@ -35,6 +39,9 @@ dependencies {
 
     // 配置中心
     implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2.2.1.RELEASE'
+
+    // shiro
+    implementation 'org.apache.shiro:shiro-spring:1.4.2'
 
     // Lombok
     compileOnly 'org.projectlombok:lombok'

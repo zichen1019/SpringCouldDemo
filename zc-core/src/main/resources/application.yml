@@ -1,11 +1,22 @@
 spring:
   # 数据源配置
   datasource:
-    url: jdbc:mysql://122.51.198.52:3306/spring_cloud_demo?useSSL=FALSE&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://${config.ip}:3306/spring_cloud_demo?useSSL=FALSE&serverTimezone=Asia/Shanghai
     username: test
     password: test
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
+  redis:
+    host: ${config.ip}
+    port: 6379
+    password: test
+    jedis:
+      pool:
+        max-idle: 8
+        min-idle: 0
+        max-active: 8
+        max-wait: -1
+    timeout: 10000
 
 # mybatis扫描路径
 mybatis:

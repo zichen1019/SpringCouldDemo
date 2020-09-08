@@ -17,7 +17,11 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'redis.clients:jedis:3.3.0'
+    implementation 'org.apache.commons:commons-pool2:2.8.1'
+    // Hutool 工具包
+    implementation 'cn.hutool:hutool-all:4.5.12'
 
     // 注册中心
     implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2.2.1.RELEASE'

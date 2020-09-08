@@ -6,6 +6,7 @@ server:
         # 将JSESSIONID修改为Authorization
         name: Authorization
 
+# [Spring Boot相关配置](https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html#security-properties)
 spring:
   # 数据源配置
   datasource:
@@ -14,9 +15,15 @@ spring:
     password: test
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
+#  session:
+#    store-type: redis
+#    timeout: 1800
+#    redis:
+#      cleanup-cron: 0 0/1 * * * ?
   redis:
     host: ${config.ip}
     port: 6379
+    password: test
     jedis:
       pool:
         max-idle: 8

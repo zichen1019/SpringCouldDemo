@@ -20,4 +20,9 @@ public interface UserService {
     int insert(AddUserDTO addUserDTO);
 
     UserVO get(UserDTO userDTO);
+
+    /**
+     * 退出登录
+     */
+    void logout();
 }
