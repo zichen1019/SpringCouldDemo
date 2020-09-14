@@ -1,19 +1,21 @@
-package com.zc.core.conf.redis;
+package com.zc.gateway.conf;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.JedisPoolConfig;
 
 /**
  * @author zichen
  */
 @Configuration
-public class JedisPoolConfig {
+public class JedisConfig {
 
-    private Logger logger = LoggerFactory.getLogger(JedisPoolConfig.class);
+    private Logger logger = LoggerFactory.getLogger(JedisConfig.class);
 
     @Value("${spring.redis.host}")
     private String host;
@@ -27,20 +29,17 @@ public class JedisPoolConfig {
     @Value("${spring.redis.timeout}")
     private int timeout;
 
-    @Value("${spring.redis.jedis.pool.max-idle}")
-    private int maxIdle;
-
-    @Value("${spring.redis.jedis.pool.max-wait}")
-    private long maxWaitMillis;
+    @Bean
+    @ConfigurationProperties("spring.redis")
+    public JedisPoolConfig jedisPoolConfig() {
+        return new JedisPoolConfig();
+    }
 
     @Bean
     public JedisPool redisPoolFactory() {
         logger.info("JedisPool注入成功！！");
         logger.info("redis地址：" + host + ":" + port);
-        redis.clients.jedis.JedisPoolConfig jedisPoolConfig = new redis.clients.jedis.JedisPoolConfig();
-        jedisPoolConfig.setMaxIdle(maxIdle);
-        jedisPoolConfig.setMaxWaitMillis(maxWaitMillis);
-        return new JedisPool(jedisPoolConfig, host, port, timeout, password);
+        return new JedisPool(jedisPoolConfig(), host, port, timeout, password);
     }
 
 }
