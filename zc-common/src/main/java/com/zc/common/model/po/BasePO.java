@@ -5,6 +5,8 @@ import com.zc.common.model.Model;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
+import tk.mybatis.mapper.annotation.KeySql;
+import tk.mybatis.mapper.code.IdentityDialect;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -23,6 +25,7 @@ public abstract class BasePO implements Model {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @KeySql(dialect = IdentityDialect.MYSQL)
     @ApiModelProperty(value = "主键")
     private Integer id;
 

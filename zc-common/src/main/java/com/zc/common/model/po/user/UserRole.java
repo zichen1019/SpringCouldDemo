@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import tk.mybatis.mapper.annotation.KeySql;
+import tk.mybatis.mapper.code.IdentityDialect;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -24,6 +26,7 @@ public class UserRole implements Model {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @KeySql(dialect = IdentityDialect.MYSQL)
     @ApiModelProperty(value = "主键")
     private Integer id;
 
