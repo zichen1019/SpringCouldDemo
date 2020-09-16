@@ -1,7 +1,9 @@
 package com.zc.gateway.conf.filter;
 
 import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.StrUtil;
+import com.alibaba.fastjson.JSON;
+import com.zc.common.config.enums.ResultCode;
+import com.zc.common.config.result.PlatformResult;
 import com.zc.common.model.po.user.User;
 import com.zc.common.utils.redis.RedisHelper;
 import org.springframework.beans.factory.annotation.Value;
@@ -13,12 +15,12 @@ import org.springframework.core.io.buffer.DataBuffer;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.server.reactive.ServerHttpRequest;
+import org.springframework.http.server.reactive.ServerHttpResponse;
 import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -30,13 +32,12 @@ import java.util.Set;
 public class AuthFilter implements GlobalFilter, Ordered {
 
     /** 请求白名单 */
-    @Value("${whitelist:}")
-    private String whitelist;
+    @Value("${whitelist}")
+    private Set<String> whiteList;
 
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         // 白名单Path
-        Set<String> whiteList = new HashSet<>(StrUtil.splitTrim(whitelist, ","));
         String path = exchange.getRequest().getPath().toString();
 
         // 白名单接口、开放接口放行
@@ -71,10 +72,12 @@ public class AuthFilter implements GlobalFilter, Ordered {
     }
 
     private Mono<Void> unauthorized(ServerWebExchange serverWebExchange) {
-        serverWebExchange.getResponse().setStatusCode(HttpStatus.UNAUTHORIZED);
-        DataBuffer buffer = serverWebExchange.getResponse()
-                .bufferFactory().wrap(HttpStatus.UNAUTHORIZED.getReasonPhrase().getBytes());
-        return serverWebExchange.getResponse().writeWith(Flux.just(buffer));
+        ServerHttpResponse response = serverWebExchange.getResponse();
+        response.setStatusCode(HttpStatus.UNAUTHORIZED);
+        DataBuffer buffer = response.bufferFactory().wrap(JSON.toJSONString(PlatformResult.failure(ResultCode.UNAUTHORIZED)).getBytes());
+        // 设置响应编码格式，否则会乱码
+        response.getHeaders().add("Content-Type", "text/plain;charset=UTF-8");
+        return response.writeWith(Flux.just(buffer));
     }
 
 }
