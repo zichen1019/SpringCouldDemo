@@ -48,6 +48,12 @@ spring:
             - Path=/zc-core-provider/**
           filters:
             - StripPrefix=1
+        - id: zc-admin-provider
+          uri: http://127.0.0.1:8080
+          predicates:
+            - Path=/zc-admin-provider/**
+          filters:
+            - StripPrefix=1
 
 management:
   endpoints:

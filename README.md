@@ -14,10 +14,11 @@
 
 ## 技术点
 
-技术名称|版本|相关介绍
----|---|---
-nacos | 1.3.2 | [nacos 文档](https://nacos.io/zh-cn/docs/quick-start-spring-cloud.html)
-seata | 1.3.0 | [seata 文档](https://seata.io/zh-cn/docs/overview/what-is-seata.html)
+技术名称|版本|github|相关介绍
+---|---|---|---
+Nacos | 1.3.2 | [URL](https://github.com/alibaba/nacos) | [URL](https://nacos.io/zh-cn/docs/quick-start-spring-cloud.html)
+Seata | 1.3.0 | [URL](https://github.com/seata/seata) | [URL](https://seata.io/zh-cn/docs/overview/what-is-seata.html)
+SpringBoot Admin | 2.3.0 | [URL](https://github.com/codecentric/spring-boot-admin) | [URL](https://codecentric.github.io/spring-boot-admin/2.3.0/#getting-started)
 
 ### nacos
 
@@ -38,6 +39,12 @@ seata | 1.3.0 | [seata 文档](https://seata.io/zh-cn/docs/overview/what-is-seat
 > ps. 在将config.txt中的内容加载到nacos中时，如果使用的是db模式，并且mysql版本为8时，需要单独配置下时区，使用nacos-config.sh 加载时 丢失部分参数配置“&serverTimezone=Asia/Shanghai”
 > store.db.url=jdbc:mysql://122.51.198.52:3306/seata?useSSL=FALSE&serverTimezone=Asia/Shanghai
 
+## 内部访问
+
+技术名称|内部访问|账号|密码
+---|---|---|---
+登录接口 | http://127.0.0.1:8080/zc-admin-provider/user/login | admin | 1
+SpringBoot Admin | http://127.0.0.1:8080/zc-admin-provider/admin/login | admin | 1
 
 ## 知识点
 

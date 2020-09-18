@@ -28,6 +28,8 @@ dependencies {
     implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2.2.1.RELEASE'
     // 注册中心
     implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2.2.1.RELEASE'
+    // admin监控
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
     // Hutool 工具包
     implementation 'cn.hutool:hutool-all:4.5.12'
     // Lombok

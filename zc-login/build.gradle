@@ -18,6 +18,8 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    // admin监控
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
     // redis
     implementation 'org.springframework.session:spring-session-data-redis'
     implementation 'redis.clients:jedis:3.3.0'

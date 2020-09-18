@@ -20,6 +20,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-redis'
     implementation 'redis.clients:jedis:3.3.0'
     implementation 'org.apache.commons:commons-pool2:2.8.1'
+    // admin监控
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
     // Hutool 工具包
     implementation 'cn.hutool:hutool-all:4.5.12'
 
