@@ -10,3 +10,16 @@ spring:
         max-active: 8
         max-wait: -1
     timeout: 10000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  file:
+    name: ${spring.application.name}-client.log

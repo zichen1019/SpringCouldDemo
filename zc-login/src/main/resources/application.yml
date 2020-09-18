@@ -64,6 +64,8 @@ management:
       show-details: ALWAYS
 
 logging:
+  file:
+    name: ${spring.application.name}-client.log
   level:
     io:
       seata: debug
