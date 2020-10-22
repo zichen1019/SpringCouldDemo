@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8081
 
 config:
   ip: zichen.zc666.top
@@ -38,20 +38,25 @@ spring:
       # 配置文档地址：https://macrozheng.github.io/mall-learning/#/cloud/gateway https://mp.weixin.qq.com/s/bTp4_M3m7rhlhC9wYKExwA
       routes:
         - id: zc-login-provider
-          uri: http://127.0.0.1:8080
+          uri: http://127.0.0.1:8081
           predicates:
             - Path=/zc-login-provider/**
           filters:
             - StripPrefix=1
         - id: zc-core-provider
-          uri: http://127.0.0.1:8080
+          uri: http://127.0.0.1:8081
           predicates:
             - Path=/zc-core-provider/**
           filters:
             - StripPrefix=1
         - id: zc-admin-provider
-          uri: http://127.0.0.1:8080
+          uri: http://127.0.0.1:8081
           predicates:
             - Path=/zc-admin-provider/**
           filters:
             - StripPrefix=1
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+      log:
+        dir: ./logs

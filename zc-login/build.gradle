@@ -61,6 +61,9 @@ dependencies {
     // FeignClient
     implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:2.2.3.RELEASE'
 
+    // sentinel 限流
+    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-sentinel:2.2.3.RELEASE'
+
     // 自己的通用包
     compile project(':zc-common')
 

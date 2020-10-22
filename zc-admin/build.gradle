@@ -9,7 +9,11 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 repositories {
-	mavenCentral()
+    maven {
+        url 'https://maven.aliyun.com/repository/public/'
+    }
+    mavenLocal()
+    mavenCentral()
 }
 
 ext {

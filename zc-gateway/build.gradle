@@ -41,6 +41,10 @@ dependencies {
     implementation 'redis.clients:jedis:3.3.0'
     implementation 'org.apache.commons:commons-pool2:2.8.1'
 
+    // sentinel 限流
+    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-sentinel:2.2.3.RELEASE'
+    implementation 'com.alibaba.cloud:spring-cloud-alibaba-sentinel-gateway:2.2.3.RELEASE'
+
     // 自己的通用包
     compile (project(':zc-common')) {
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-web'
