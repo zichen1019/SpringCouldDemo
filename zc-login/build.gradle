@@ -9,10 +9,10 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 repositories {
+    mavenLocal()
     maven {
         url 'https://maven.aliyun.com/repository/public/'
     }
-    mavenLocal()
     mavenCentral()
 }
 
@@ -65,7 +65,7 @@ dependencies {
     implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-sentinel:2.2.3.RELEASE'
 
     // 自己的通用包
-    compile project(':zc-common')
+    implementation 'com.zc:zc-common:0.0.1-SNAPSHOT'
 
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'

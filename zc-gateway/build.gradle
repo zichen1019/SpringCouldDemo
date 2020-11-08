@@ -46,9 +46,7 @@ dependencies {
     implementation 'com.alibaba.cloud:spring-cloud-alibaba-sentinel-gateway:2.2.3.RELEASE'
 
     // 自己的通用包
-    compile (project(':zc-common')) {
-        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-web'
-    }
+    implementation 'com.zc:zc-common:0.0.1-SNAPSHOT'
 
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'

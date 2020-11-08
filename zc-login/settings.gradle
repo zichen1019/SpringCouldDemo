@@ -1,2 +1,2 @@
 rootProject.name = 'zc-login'
-includeFlat 'zc-common'
+includeBuild '../zc-common'
