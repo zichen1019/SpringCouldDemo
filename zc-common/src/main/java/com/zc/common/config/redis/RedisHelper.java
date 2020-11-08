@@ -1,4 +1,4 @@
-package com.zc.common.utils.redis;
+package com.zc.common.config.redis;
 
 import cn.hutool.core.convert.Convert;
 import cn.hutool.core.util.EnumUtil;
@@ -9,6 +9,8 @@ import com.alibaba.fastjson.JSON;
 import com.zc.common.config.enums.ConvertEnum;
 import com.zc.common.config.enums.ResultCode;
 import com.zc.common.exception.BusinessException;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.stereotype.Component;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
@@ -22,6 +24,8 @@ import java.util.Set;
  *
  * @author zichen
  */
+@ConditionalOnBean(JedisConfig.class)
+@ConditionalOnMissingBean(RedisHelper.class)
 @Component
 public class RedisHelper {
 
@@ -30,12 +34,10 @@ public class RedisHelper {
     @Resource
     private JedisPool jedisPool;
 
-    private Jedis jedis;
-
     @PostConstruct
     public void init() {
         redisHelper = this;
-        redisHelper.jedis = this.jedisPool.getResource();
+        redisHelper.jedisPool = this.jedisPool;
     }
 
     /**
@@ -59,8 +61,8 @@ public class RedisHelper {
         if (ObjectUtil.isNull(value)) {
             throw new BusinessException(ResultCode.INTERFACE_INNER_INVOKE_ERROR);
         }
-        try {
-            redisHelper.jedis.set(key, Convert.toStr(value));
+        try (Jedis jedis = redisHelper.jedisPool.getResource()) {
+            jedis.set(key, Convert.toStr(value));
             if (ObjectUtil.isNotNull(expire)) {
                 updateExpire(key, expire);
             }
@@ -83,8 +85,8 @@ public class RedisHelper {
      * @param value     使用json进行序列化
      */
     public static void addJSONSerializer(String key, Object value, Integer expire) {
-        try {
-            redisHelper.jedis.set(key, ObjectTranscoder.serialize(value));
+        try (Jedis jedis = redisHelper.jedisPool.getResource()) {
+            jedis.set(key, ObjectTranscoder.serialize(value));
             if (ObjectUtil.isNotNull(expire)) {
                 updateExpire(key, expire);
             }
@@ -98,7 +100,9 @@ public class RedisHelper {
      * 更新指定key的失效时间
      */
     public static void updateExpire(String key, Integer expire) {
-        redisHelper.jedis.expire(key, expire);
+        try (Jedis jedis = redisHelper.jedisPool.getResource()) {
+            jedis.expire(key, expire);
+        }
     }
 
     /**
@@ -108,7 +112,9 @@ public class RedisHelper {
         if (StrUtil.isEmpty(key)) {
             return null;
         }
-        return redisHelper.jedis.keys(key);
+        try (Jedis jedis = redisHelper.jedisPool.getResource()) {
+            return jedis.keys(key);
+        }
     }
 
     /**
@@ -118,7 +124,10 @@ public class RedisHelper {
         if (StrUtil.isEmpty(key) || !exists(key)) {
             return null;
         }
-        String value = redisHelper.jedis.get(key);
+        String value;
+        try (Jedis jedis = redisHelper.jedisPool.getResource()) {
+            value = jedis.get(key);
+        }
         String method = EnumUtil.getEnumMap(ConvertEnum.class).getOrDefault(clazz.getSimpleName().toUpperCase(), ConvertEnum.NONE).getMethod();
         if (StrUtil.isNotEmpty(method)) {
             return ReflectUtil.invoke(new Convert(), method, value);
@@ -137,7 +146,10 @@ public class RedisHelper {
         if (!exists(key)) {
             return null;
         }
-        String in = redisHelper.jedis.get(key);
+        String in;
+        try (Jedis jedis = redisHelper.jedisPool.getResource()) {
+            in = jedis.get(key);
+        }
         return ObjectTranscoder.deserialize(in, clazz);
     }
 
@@ -151,7 +163,9 @@ public class RedisHelper {
         if (StrUtil.isEmpty(key)) {
             return false;
         }
-        return redisHelper.jedis.exists(key);
+        try (Jedis jedis = redisHelper.jedisPool.getResource()) {
+            return jedis.exists(key);
+        }
     }
 
     /**
@@ -160,7 +174,9 @@ public class RedisHelper {
      * @param key 键信息
      */
     public static void delKey(String key) {
-        redisHelper.jedis.del(key);
+        try (Jedis jedis = redisHelper.jedisPool.getResource()) {
+            jedis.del(key);
+        }
     }
 
     static class ObjectTranscoder {

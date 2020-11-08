@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.zc.common.config.redis.JedisConfig,\
+com.zc.common.config.redis.RedisHelper
