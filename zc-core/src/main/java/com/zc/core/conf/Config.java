@@ -3,7 +3,6 @@ package com.zc.core.conf;
 import com.zc.common.config.handler.response.ResponseResultHandler;
 import com.zc.common.config.interceptor.ResponseResultInterceptor;
 import com.zc.common.exception.GlobalExceptionHandler;
-import com.zc.common.utils.redis.RedisHelper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -26,11 +25,6 @@ public class Config {
     @Bean
     public GlobalExceptionHandler globalExceptionHandler() {
         return new GlobalExceptionHandler();
-    }
-
-    @Bean
-    public RedisHelper redisHelper() {
-        return new RedisHelper();
     }
 
 }

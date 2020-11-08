@@ -5,7 +5,7 @@ import com.zc.common.config.result.ResponseResult;
 import com.zc.common.model.dto.user.AddUserDTO;
 import com.zc.common.model.dto.user.UserDTO;
 import com.zc.common.model.vo.user.UserVO;
-import com.zc.common.utils.redis.RedisHelper;
+import com.zc.common.config.redis.RedisHelper;
 import com.zc.login.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

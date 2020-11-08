@@ -3,7 +3,7 @@ package com.zc.core.service.impl;
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.StrUtil;
 import com.zc.common.model.po.user.User;
-import com.zc.common.utils.redis.RedisHelper;
+import com.zc.common.config.redis.RedisHelper;
 import com.zc.common.model.bo.RedisInfo;
 import com.zc.common.model.dto.PageDTO;
 import com.zc.core.service.RedisService;

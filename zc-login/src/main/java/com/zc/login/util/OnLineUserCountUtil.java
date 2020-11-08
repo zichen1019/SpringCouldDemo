@@ -2,7 +2,7 @@ package com.zc.login.util;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.ObjectUtil;
-import com.zc.common.utils.redis.RedisHelper;
+import com.zc.common.config.redis.RedisHelper;
 import org.springframework.http.HttpHeaders;
 
 import java.util.Set;

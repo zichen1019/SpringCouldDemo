@@ -16,7 +16,7 @@ import com.zc.common.model.dto.user.UserDTO;
 import com.zc.common.model.po.user.User;
 import com.zc.common.model.vo.user.UserVO;
 import com.zc.common.utils.AttributeReflectUtil;
-import com.zc.common.utils.redis.RedisHelper;
+import com.zc.common.config.redis.RedisHelper;
 import com.zc.login.mapper.UserMapper;
 import com.zc.login.service.UserService;
 import com.zc.login.util.OnLineUserCountUtil;
