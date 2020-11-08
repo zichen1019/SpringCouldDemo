@@ -1,0 +1,48 @@
+plugins {
+    id 'org.springframework.boot' version '2.3.5.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+    id 'java'
+}
+
+group = 'com.zc'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenLocal()
+    maven {
+        url 'https://maven.aliyun.com/repository/public/'
+    }
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    // admin监控
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    // 注册中心
+    implementation('com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2.2.1.RELEASE') {
+        exclude group: 'com.alibaba.nacos', module: 'nacos-client'
+    }
+
+    // 配置中心
+    implementation 'com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2.2.1.RELEASE'
+
+    // Hutool 工具包
+    implementation 'cn.hutool:hutool-all:4.5.12'
+
+    // 操作html节点工具：https://www.open-open.com/jsoup/parsing-a-document.htm
+    implementation 'org.jsoup:jsoup:1.13.1'
+
+    // 自己的通用包
+    implementation 'com.zc:zc-common:0.0.1-SNAPSHOT'
+
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
+
+}
+
+test {
+    useJUnitPlatform()
+}

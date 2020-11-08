@@ -1,0 +1,38 @@
+server:
+  port: 9300
+
+config:
+  ip: zichen.zc666.top
+  nacos:
+    port: 8848
+    group: DEV_GROUP
+    namespace: 001d4d62-9fbd-4cef-832a-c21777a2572f
+  front:
+    ip: '*'
+    projectName: api
+
+spring:
+  application:
+    # 服务逻辑名称
+    name: zc-api-provider
+
+  profiles:
+    active: dev
+
+  main:
+    allow-bean-definition-overriding: true
+
+  cloud:
+    nacos:
+      # 注册中心
+      discovery:
+        server-addr: ${config.ip}:${config.nacos.port}
+        group: ${config.nacos.group}
+        namespace: ${config.nacos.namespace}
+
+      # 配置中心
+      config:
+        server-addr: ${config.ip}:${config.nacos.port}
+        file-extension: yml
+        group: ${config.nacos.group}
+        namespace: ${config.nacos.namespace}
