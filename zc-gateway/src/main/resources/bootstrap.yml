@@ -1,8 +1,8 @@
 server:
-  port: 8081
+  port: 9100
 
 config:
-  ip: zichen.zc666.top
+  ip: zc666.top
 
 spring:
   application:
@@ -50,9 +50,15 @@ spring:
           filters:
             - StripPrefix=1
         - id: zc-admin-provider
-          uri: http://127.0.0.1:8081
+          uri: http://127.0.0.1:9101
           predicates:
             - Path=/zc-admin-provider/**
+          filters:
+            - StripPrefix=1
+        - id: zc-api-provider
+          uri: http://127.0.0.1:9300
+          predicates:
+            - Path=/zc-api-provider/**
           filters:
             - StripPrefix=1
     sentinel:
