@@ -2,7 +2,6 @@ package com.zc.gateway.conf;
 
 import com.alibaba.csp.sentinel.adapter.gateway.sc.SentinelGatewayFilter;
 import com.alibaba.csp.sentinel.adapter.gateway.sc.exception.SentinelGatewayBlockExceptionHandler;
-import com.zc.common.utils.redis.RedisHelper;
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.context.annotation.Bean;
@@ -20,11 +19,6 @@ import java.util.List;
  */
 @Configuration
 public class Config {
-
-    @Bean
-    public RedisHelper redisHelper() {
-        return new RedisHelper();
-    }
 
     private final List<ViewResolver> viewResolvers;
     private final ServerCodecConfigurer serverCodecConfigurer;
