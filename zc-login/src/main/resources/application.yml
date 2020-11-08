@@ -21,7 +21,7 @@ spring:
 #    redis:
 #      cleanup-cron: 0 0/1 * * * ?
   redis:
-    host: ${config.ip}
+    host: 127.0.0.1
     port: 6379
     password: test
     jedis:

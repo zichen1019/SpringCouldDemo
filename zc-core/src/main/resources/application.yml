@@ -7,7 +7,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
   redis:
-    host: ${config.ip}
+    host: 127.0.0.1
     port: 6379
     password: test
     jedis:
