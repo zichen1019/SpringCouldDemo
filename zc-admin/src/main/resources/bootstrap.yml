@@ -1,8 +1,8 @@
 server:
-  port: 8083
+  port: 9101
 
 config:
-  ip: zichen.zc666.top
+  ip: zc666.top
   nacos:
     port: 8848
     group: DEV_GROUP
