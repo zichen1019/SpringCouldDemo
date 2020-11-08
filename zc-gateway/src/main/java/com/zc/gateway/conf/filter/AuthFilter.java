@@ -5,7 +5,7 @@ import com.alibaba.fastjson.JSON;
 import com.zc.common.config.enums.ResultCode;
 import com.zc.common.config.result.PlatformResult;
 import com.zc.common.model.po.user.User;
-import com.zc.common.utils.redis.RedisHelper;
+import com.zc.common.config.redis.RedisHelper;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
