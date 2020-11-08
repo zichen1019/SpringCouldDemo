@@ -1,38 +1,22 @@
-buildscript {
-    ext {
-        springBootVersion = '2.3.1.RELEASE'
-    }
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-    }
-}
-
 plugins {
-    // 其他项目需要引用当前项目时，需要将id 'java'改为id 'java-library'，避免其他项目调用时报乱码错误。
-    id 'java-library'
+    id 'org.springframework.boot' version '2.3.5.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+    id 'java'
 }
-
-apply plugin: 'org.springframework.boot'
-apply plugin: 'io.spring.dependency-management'
 
 group = 'com.zc'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
-configurations {
-    compileOnly {
-        extendsFrom annotationProcessor
-    }
+jar {
+    enabled(true)
 }
 
 repositories {
+    mavenLocal()
     maven {
         url 'https://maven.aliyun.com/repository/public/'
     }
-    mavenLocal()
     mavenCentral()
 }
 
