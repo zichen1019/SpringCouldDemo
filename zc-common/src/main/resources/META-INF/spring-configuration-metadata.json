@@ -1,0 +1,10 @@
+{
+  "properties": [
+    {
+      "name": "spring.redis.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enabled JedisPool And RedisHelper.",
+      "defaultValue": "false"
+    }
+  ]
+}
